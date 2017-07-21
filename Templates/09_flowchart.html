@@ -1,0 +1,179 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Challenges of Conducting Research</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+<link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+<link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+<!-- Customized theme -->
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/mobile.css">
+
+<!-- Customized fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+<link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link href="../css/plugins/DnD_Template.css" rel="stylesheet" type="text/css">
+<style>
+/* Flow chart */
+
+.flow-chart {
+	margin-bottom: 20px;
+}
+.flow-chart .flow-title {
+	margin-bottom: 0;
+	padding: 20px 0;
+	background: #00848E;
+	color: #fff;
+}
+.flow-chart .btn {
+	white-space: normal;
+	margin-top: 5px;
+}
+.flow-chart .flow-item .btn {
+	min-height: 175px;
+}
+.flow-chart .btn.disabled {
+	opacity: 1;
+}
+.flow-chart .opt-a .btn {
+	background: none;
+	border: 1px dashed #CC3730;
+}
+.flow-chart .opt-b .btn {
+	background: none;
+	border: 1px dashed #007298;
+}
+.flow-chart .btn:focus, .flow-chart .btn:hover {
+	border-color: #423e3e;
+}
+.flow-chart .opt-a .btn.disabled {
+	background: none;
+	border: 1px solid #CC3730;
+}
+.flow-chart .opt-b .btn.disabled {
+	background: none;
+	border: 1px solid #007298;
+}
+.flow-chart .final {
+	color: #fff;
+	display: inline-block;
+	padding: 6px 12px;
+	min-height: 125px;
+	vertical-align: middle;
+}
+.flow-chart .opt-a .final {
+	background: #CC3730;
+}
+.flow-chart .opt-b .final {
+	background: #007298;
+}
+</style>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+<header>
+  <h1>Occupational Research</h1>
+  <div class="strip"></div>
+  <div class="headerMod"> <span>3</span>
+    <div class="triangle-right"></div>
+  </div>
+</header>
+<div class="container" role="main">
+  <div class="col-sm-12 col-xs-12">
+    <h1>Challenges of Conducting Research</h1>
+  </div>
+  <!-- START ROW -->
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <p><em>Select each item in the flow chart below to reveal an explanation of how communication can impact a girl’s reaction to menstruation. </em> </p>
+    </div>
+  </div>
+  <!-- END ROW --> 
+  <!-- START ROW -->
+  <div class="row">
+    <div class="col-sm-12 flow-chart">
+      <ol class="list-unstyled">
+        <li class="text-center"><span class="col-xs-8 col-xs-offset-2 lead flow-title">Communication</span>
+          <ol type="a" class="list-inline">
+            <li class="col-xs-6 opt-a" id="flow_0"> <i class="fa fa-arrow-down col-xs-12"></i>
+              <button onclick="javascript:showNext(1)" id="flowbtn_1" class="btn">Yes</button>
+              <ol type="i" class="list-unstyled">
+                <li id="flow_1" class="flow-item"><i class="fa fa-arrow-down col-xs-12"></i>
+                  <button onclick="javascript:showNext(2)" id="flowbtn_2" class="btn">Knowledge: Knowledge provides the girl with an understanding that menstruation is a normal and healthy part of being a woman. Knowledge will contribute to her feeling more comfortable and less scared of growing up and becoming a woman.</button>
+                </li>
+                <li id="flow_2" class="flow-item"><i class="fa fa-arrow-down col-xs-12"></i>
+                  <button onclick="javascript:showNext(3)" id="flowbtn_3" class="btn">Prepared: Understanding what having a menstrual cycle is and how it works each month allows the girl to be prepared. She will come to anticipate changes in her body and more readily adjust to menstrual symptoms. Concrete knowledge will help her in planning as well and avoid what could be a frightening experience.</button>
+                </li>
+                <li id="flow_3" class="flow-item"><i class="fa fa-arrow-down col-xs-12"></i> <span class="clearfix final"><strong>Positive Experience</strong> – the girl recognizes what is happening, knows what to expect and what to do. She may even feel excited and celebrated for her body is preparing for children and she is progressing into womanhood.</span> </li>
+              </ol>
+            </li>
+            <li class="col-xs-6 opt-b" id="flow_4"> <i class="fa fa-arrow-down col-xs-12"></i>
+              <button onclick="javascript:showNext(5)" id="flowbtn_5" class="btn">No</button>
+              <ol type="i" class="list-unstyled">
+                <li id="flow_5" class="flow-item"><i class="fa fa-arrow-down col-xs-12"></i>
+                  <button onclick="javascript:showNext(6)" id="flowbtn_6" class="btn">No Knowledge: The reality is that menstruation is going to happen with or without knowledge of it. Finding blood in one’s underwear without a true understanding of why that is happening could be quite frightening and can often set the stage for embarrassment, self- consciousness and maybe even shame.</button>
+                </li>
+                <li id="flow_6" class="flow-item"><i class="fa fa-arrow-down col-xs-12"></i>
+                  <button onclick="javascript:showNext(7)" id="flowbtn_7" class="btn">Unprepared: A lack of knowledge as it pertains to menstruation fundamentally leaves a young girl unprepared. If she has information it may be limited to that obtained from friends or the internet which can be riddled with myths or simply be incomplete and therefore unhelpful. A lack of knowledge leads to being unprepared which inevitably leads to fear, concern and sometimes depression.</button>
+                </li>
+                <li id="flow_7" class="flow-item"> <i class="fa fa-arrow-down col-xs-12"></i> <span class="final"><strong>Negative Experience</strong> – the girl is shocked, surprised by the experience and doesn’t associate it with anything familiar. Feelings of confusion, fear, and depression may develop.</span> </li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+  </div>
+  <!-- END ROW --> 
+</div>
+<!-- START FOOTER-->
+<div class="footer">&copy; 2016 Conestoga College. All rights reserved.</div>
+<!-- END FOOTER --> 
+<!-- End Container --> 
+<!-- jQuery Version 1.11.0 --> 
+<script src="../js/plugins/jquery.min.js"></script> 
+<!-- Latest compiled and minified JavaScript --> 
+<script src="../js/plugins/bootstrap.min.js"></script> 
+<script src="../js/plugins/bootstrap-accessibility.min.js"></script> 
+
+<!-- Custom JS Functions --> 
+<script src="../js/main.min.js"></script> 
+<script>
+        function showNext(i) {
+            $("#flowbtn_" + i).removeAttr("onclick").addClass("disabled");
+            $("#flow_" + i).css('visibility', 'visible').hide().fadeIn(400);
+
+        }
+        $(document).ready(function () {
+            // hide all flow chart elements
+            for (var i = 0; i <= 7; i++) {
+                $("#flow_" + i).css('visibility', 'hidden');
+            }
+
+            // show first item
+            $("#flow_0").css('visibility', 'visible').hide().fadeIn(400);
+            $("#flow_4").css('visibility', 'visible').hide().fadeIn(400);
+
+        });
+    </script>
+</body>
+</html>

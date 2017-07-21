@@ -1,0 +1,402 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Early Successes of the AEA</title>
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="../css/main.css">
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+    <link rel="stylesheet" href="../css/plugins/fontawesome/css/font-awesome.min.css">
+    <style>
+  /* Mod01 - Timeline */
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline > li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li:before,
+.timeline > li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline > li:after {
+    clear: both;
+}
+
+.timeline > li > .timeline-panel {
+    width: 46%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline > li > .timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+
+.timeline > li > .timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline > li > .timeline-badge {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: none;
+    z-index: 100;
+    color: #3EBFAC;
+}
+
+.timeline > li > .timeline-badge.primary {
+    color: #007298;
+}
+
+.timeline > li > .timeline-badge.core03 {
+    color: #00848E;
+}
+
+.timeline > li > .timeline-badge.core04 {
+    color: #7F2854;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel {
+    float: right;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-title {
+    margin-top: 0;
+}
+
+.timeline-body > p,
+.timeline-body > ul {
+    margin-bottom: 0;
+}
+
+.timeline-body > p + p {
+    margin-top: 5px;
+}
+
+.timeline-item-02 {
+    margin-top: -25%;
+}
+
+.timeline-item-03,
+.timeline-item-04,
+.timeline-item-05,
+.timeline-item-06,
+.timeline-item-07,
+.timeline-item-08 {
+    margin-top: -15%;
+}
+
+.timeline-item-09,
+.timeline-item-10,
+.timeline-item-11,
+.timeline-item-12 {
+    margin-top: -5%;
+}
+
+@media (max-width: 767px) {
+    ul.timeline:before {
+        left: 40px;
+    }
+    ul.timeline > li > .timeline-panel {
+        width: calc(100% - 90px);
+        width: -moz-calc(100% - 90px);
+        width: -webkit-calc(100% - 90px);
+    }
+    ul.timeline > li > .timeline-badge {
+        left: 15px;
+        margin-left: 0;
+        top: 16px;
+    }
+    ul.timeline > li > .timeline-panel {
+        float: right;
+    }
+    ul.timeline > li > .timeline-panel:before {
+        border-left-width: 0;
+        border-right-width: 15px;
+        left: -15px;
+        right: auto;
+    }
+    ul.timeline > li > .timeline-panel:after {
+        border-left-width: 0;
+        border-right-width: 14px;
+        left: -14px;
+        right: auto;
+    }
+    .timeline-item-02,
+    .timeline-item-03,
+    .timeline-item-04,
+    .timeline-item-05,
+    .timeline-item-06,
+    .timeline-item-07,
+    .timeline-item-08,
+    .timeline-item-09,
+    .timeline-item-10,
+    .timeline-item-11,
+    .timeline-item-12 {
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 1200px) {
+    .timeline-item-02,
+    .timeline-item-03,
+    .timeline-item-04,
+    .timeline-item-05,
+    .timeline-item-06,
+    .timeline-item-07,
+    .timeline-item-08,
+    .timeline-item-09,
+    .timeline-item-10,
+    .timeline-item-11,
+    .timeline-item-12 {
+        margin-top: 0;
+    }
+}
+
+.timeline > li {
+    opacity: 0;
+}
+
+.timeline .fa-calendar-o {
+    position: relative;
+    z-index: -100;
+    font-size: 2.5em;
+    background: #fff;
+}
+
+.timeline .timeline-date {
+    position: relative;
+    z-index: 100;
+    top: -55px;
+    font-size: 0.8em;
+}
+      
+    </style>
+</head>
+
+<body class="mod01">
+
+    <!-- Start Container -->
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="page-title">
+                    <h1 class="page-header"><span class="header-content col-sm-offset-1">Early Successes of the AEA</span></h1>
+                </div>
+            </div>
+        </div>
+
+        <!-- START ROW -->
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>This collaboration led to very public success. During the 15-month history of the AEA, members of the organization built and flew a series of biplanes powered by Curtiss engines. Review the highlights of some of their early flights below. </p>
+                <p>If you are having difficulty using the timeline you can view a <a href="file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/module_02/02_research_alt.html" title="Text version of timeline">text only version of this page</a>.</p>
+                <h2>The History of the Early Success of the AEA &ndash; 1908</h2>
+            </div>
+
+        </div>
+        <!-- END ROW -->
+        <!-- START ROW -->
+        <div class="row">
+            <div class="col-sm-12">
+
+                <!-- Timeline -->
+                <ul class="timeline">
+                    <li class="timeline-item timeline-item-01">
+                        <div class="timeline-badge "><i class="fa fa-calendar-o"></i><span class="timeline-date">Mar</span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">First Canadian Pilot</h3>
+
+                            </div>
+                            <div class="timeline-body"><img src='file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/module_02/images/freud.jpg' alt='Sigmund Freud' class='pull-right img-responsive'>
+                            			<h4>March 12, 1908</h4>
+                                <p>Casey Baldwin becomes the first Canadian and first British subject to pilot an aircraft. He flies Red Wing, named for the colour of the silk covering its wings, 319 feet (97 meters) over the frozen surface of Lake Kueka near Hammondsport, N.Y.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted timeline-item-02">
+                        <div class="timeline-badge primary"><i class="fa fa-calendar-o"></i><span class="timeline-date">May</span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">Flying the <em>White Wing</em></h3>       
+                            </div>
+                            <div class="timeline-body">
+                                <img src='file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/module_02/images/ellis.jpg' alt='Havelock Ellis' class='pull-right img-responsive'>
+                                <h4>May 17-23, 1908</h4>
+                                <p>The four younger members of the AEA (i.e. excluding the Bells) make of a total of five flights on the next aircraft, White Wing The White Wing is also the first plane to feature Bell&rsquo;s ailerons.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item-03">
+                        <div class="timeline-badge core03"><i class="fa fa-calendar-o"></i><span class="timeline-date">July</span>
+                        </div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h3 class="timeline-title">First Official 1km Flight</h3>
+                            </div>
+                            <div class="timeline-body">
+                                <img src='file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/module_02/images/hirschfeld.jpg' alt='Magnus Hirschfeld' class='pull-right img-responsive'>
+                                <h4>July 4, 1908</h4>
+                                <p>Curtiss wins the Scientific American Trophy for making the first official one kilometer flight in North America aboard the June Bug, although the Wrights had already accomplished this in 1904.</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <!-- EOF:Timeline -->
+            </div>
+
+        </div>
+        <!-- END ROW -->
+        <!-- START ROW -->
+        <div class="row">
+            <div class="col-sm-8 col-sm-offset-2 callout core04-bg">
+                <p>Sexuality research is broad and covers numerous types of studies – from the truly experimental lab experiments involving animals, to case study analysis of biological differences. Let’s take a look at a few research investigations contributing to the enormous body of sex research available today.</p>
+            </div>
+
+        </div>
+        <!-- END ROW -->
+    </div>
+    <!-- End Container -->
+    <!-- jQuery Version 1.11.0 -->
+    <script src="file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/js/plugins/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/js/plugins/bootstrap.min.js"></script>
+    <script src="file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/js/plugins/bootstrap-accessibility.min.js"></script>
+
+    <!-- Custom JS Functions -->
+    <script src="file:///Macintosh HD/Users/bmac/Dropbox/EdTech/OO-Human Sexuality/js/main.min.js"></script>
+<!--<script>
+			$(function () {
+				$('.timeline li').each(function (i) {
+					$(this).delay((i++) * 500).fadeTo(1000, 1);
+				})
+			});
+    
+    
+    
+		</script> -->
+
+    <script>
+    $(document).ready(function() {
+    $('.timeline li.timeline-item-01').each(function (i) {
+					$(this).delay((i++) * 500).fadeTo(1000, 1);
+				})
+    /* Every time the window is scrolled ... */
+    $(window.parent).scroll( function(){
+    
+        /* Check the location of each desired element */
+        $('.timeline li').each( function(i){
+            
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window.parent).scrollTop() + $(window.parent).height();
+            
+            /* If the object is completely visible in the window, fade it it */
+            if( bottom_of_window > bottom_of_object ){
+                
+                $(this).animate({'opacity':'1'},500);
+                    
+            }
+            
+        }); 
+    
+    });
+    
+});</script>
+
+        <!-- START FOOTER-->
+    <div class="footer"></div>
+    <!-- END FOOTER -->
+</body>
+
+</html>

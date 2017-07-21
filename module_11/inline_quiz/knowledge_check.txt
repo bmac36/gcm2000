@@ -1,0 +1,99 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"Complete the following three-question knowledge check to test what you’ve learned about selecting which communication platform to use in a given circumstance.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Which social media tool would you use to conduct a quick survey and gather viewpoints from people across multiple geographic and social boundaries?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Facebook",
+          "feedBack": "Nice try, but actually Twitter allows you to quickly survey the people you follow, allowing you to gather viewpoints from people across multiple geographic and social boundaries."
+       },
+       	{
+		 	"answerText": "Reddit",
+			"feedBack": "Nice try, but actually Twitter allows you to quickly survey the people you follow, allowing you to gather viewpoints from people across multiple geographic and social boundaries."
+		},
+		{
+			"answerText": "LinkedIn",
+			"feedBack": "Nice try,  but actually Twitter allows you to quickly survey the people you follow, allowing you to gather viewpoints from people across multiple geographic and social boundaries."
+		},
+		{
+			"answerText": "Twitter",
+			"feedBack": "Correct! Twitter allows you to quickly survey the people you follow, allowing you to gather viewpoints from people across multiple geographic and social boundaries.",
+			"scoreValue": 1
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"You made a professional contact at a networking event and want to keep in touch. What is the best social media platform for doing this?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "LinkedIn",
+          "feedBack": "Correct! LinkedIn is specifically built for professional networking. It allows you to maintain a comfortable personal distance from your professional contact that Facebook and other social media sites do not.",
+	   	  "scoreValue": 1
+       },
+         {
+          "answerText": "Twitter",
+          "feedBack": "Nice try, but actually LinkedIn is specifically built for professional networking. It allows you to maintain a comfortable personal distance from your professional contact that Facebook and other social media sites do not."
+        },
+         {
+          "answerText": "Facebook",
+          "feedBack": "Nice try,  but actually LinkedIn is specifically built for professional networking. It allows you to maintain a comfortable personal distance from your professional contact that Facebook and other social media sites do not."
+        },
+		{
+			"answerText": "Instagram",
+			"feedBack": "Nice try, but actually LinkedIn is specifically built for professional networking. It allows you to maintain a comfortable personal distance from your professional contact that Facebook and other social media sites do not."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Your co-worker is in the middle of a task and you don’t want to interrupt her but there’s a quick question you want to ask. What would be the best communication platform to use?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Phone",
+          "feedBack": "Nice try, but actually Instant messenger is a quick way of casually sharing text information or finding answers to brief questions."
+       },
+         {
+          "answerText": "Email",
+          "feedBack": "Nice try, but actually Instant messenger is a quick way of casually sharing text information or finding answers to brief questions."
+        },
+         {
+          "answerText": "Instant Messenger",
+          "feedBack": "Correct! Instant messenger is a quick way of casually sharing text information or finding answers to brief questions.",
+          "scoreValue": 1
+        },
+		{
+			"answerText": "Facebook",
+			"feedBack": "Nice try,  but actually Instant messenger is a quick way of casually sharing text information or finding answers to brief questions."
+		}
+      ]
+	}
+ ]
+}     
+      

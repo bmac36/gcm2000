@@ -1,0 +1,65 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "2",
+    "preQuizText":"Complete this two-question knowledge check to test your understanding of intrapersonal skills.<br /><br />Test your understanding by identifying the intrapersonal skills needed by your mentors in each of the following cases.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<b>Mentor Case #1: Naweed &mdash; Driving results for the company, but at a cost.</b><br />Consider Naweed’s experience:<br /><br />&quot;I have always been a key performer with a strong ability to drive results for my company. Every quarter, my productivity numbers would demonstrate that I was the top achiever in my division. However, I didn’t realize that there was a problem with how I got those results. My approach to getting the work done was to push others hard and be impatient with any delays. I had a tendency to get angry with colleagues who were holding things up. What’s worse, I didn’t know that I was doing this. When my supervisor shared some feedback that I was &lsquo;leaving a trail of destruction&rsquo;, I was truly surprised.&quot;<br /><br />Which intrapersonal skill did Naweed need in order to change his behaviour?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Self-regulation",
+          "feedBack": "Not quite. Naweed lacked the self-awareness to understand how his actions were affecting others. He now takes the time to consider how his messages will be received, and how to balance results with relationships. His productivity is higher than ever, and he has developed stronger bonds with his colleagues."
+       },
+       	{
+    		 	"answerText": "Motivation",
+    			"feedBack": "Not quite. Naweed lacked the self-awareness to understand how his actions were affecting others. He now takes the time to consider how his messages will be received, and how to balance results with relationships. His productivity is higher than ever, and he has developed stronger bonds with his colleagues."
+    		},
+    		{
+    			"answerText": "Self-awareness",
+    			"feedBack": "Correct! Naweed lacked the self-awareness to understand how his actions were affecting others. He now takes the time to consider how his messages will be received, and how to balance results with relationships. His productivity is higher than ever, and he has developed stronger bonds with his colleagues.",
+          "scoreValue": 1
+    		}
+      ]
+  	},
+     {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<b>Mentor Case #2: Jenn &mdash; Dealing with frustrations while driving.</b><br />Consider Jenn’s experience:<br /><br />&quot;I used to feel a lot of frustration whenever I encountered people driving slowly on the highway. I would encounter a slow driver and become overwhelmed by frustration; I would honk my horn, drive aggressively around them, and even shout out my window. Once I learned more about intrapersonal skills, I learned to develop my metacognitive skills. I became aware of my way of thinking about thinking, and started to react differently to the experience of frustration. I would first experience frustration as an emotion and before acting, would internally say to myself, ‘I am feeling frustrated.' This split-second of awareness was just enough time to stop me from doing anything negative.&quot;<br /><br />Which intrapersonal skill did Jenn need to develop in order to change her behaviour?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Self-regulation",
+          "feedBack": "Correct! Jenn needed to learn self-regulation in order to change her behaviour. For her, learning self-regulation meant learning to say, ‘I know that I am frustrated by this slow driver’ but not doing anything, instead of unconsciously identifying with the frustration and lashing out.",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "Motivation",
+          "feedBack": "Not quite. Jenn needed to learn self-regulation in order to change her behaviour. For her, learning self-regulation meant learning to say, ‘I know that I am frustrated by this slow driver’ but not doing anything, instead of unconsciously identifying with the frustration and lashing out."
+        },
+         {
+          "answerText": "Self-awareness",
+          "feedBack": "Not quite. Jenn needed to learn self-regulation in order to change her behaviour. For her, learning self-regulation meant learning to say, ‘I know that I am frustrated by this slow driver’ but not doing anything, instead of unconsciously identifying with the frustration and lashing out."
+  		  }
+      ]
+  	}
+  ]
+}     
+      

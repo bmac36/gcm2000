@@ -1,0 +1,99 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"This three-question quiz will test your understanding of the key concepts learned in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Which of the following statements about different types of interviews is <b>NOT</b> true?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Telephone interviews can be used to pre-screen job candidates.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "Technical interviews assess your skills in a practical way.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "Behaviorial interviews use hypothetical questioning.",
+          "feedBack": "Correct! Taking time to practice answering anticipated interview questions in a mock interview will help boost your confidence for the actual interview.",
+ 		  "scoreValue": 1
+       },
+       	{
+		 	"answerText": "One-on-one interviews focus on a single job candidate.",
+			"feedBack": "Good try, but this in not the correct answer."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What can you do to increase your confidence and reduce anxiety before an interview?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Rehearse your answers to anticipated questions in a mock interview.",
+          "feedBack": "Correct! Taking time to practice answering anticipated interview questions in a mock interview will help boost your confidence for the actual interview.",
+		  "scoreValue": 1
+       },
+         {
+          "answerText": "Find out who will be interviewing you and connect on LinkedIn.",
+          "feedBack": "Good try, but this in not the correct answer."
+        },
+         {
+          "answerText": "Recognize and accept that the employer has all of the control.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+		{
+			"answerText": "Map the route to the interview location and arrive an hour early.",
+			"feedBack": "Good try, but this is not the correct answer."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"An interviewer, nervous about filling weekend shifts, asked if you follow a specific religion. What would be an appropriate response to this illegal question?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "&quot;Yes, I’m Catholic, but not practicing except on holidays.&quot;",
+          "feedBack": "Good try, but this is not the correct answer."
+      },
+         {
+          "answerText": "&quot;You can’t ask me that. I am going to lodge a complaint!&quot;",
+          "feedBack": "Good try, but this in not the correct answer."
+      },
+         {
+          "answerText": "&quot;I’m not sure why you’re asking, but I can work whenever needed&quot;",
+          "feedBack": "Correct! This answer sidesteps the question while still graciously addressing the employer’s need.",
+ 		  "scoreValue": 1
+       },
+			{
+				"answerText": "&quot;Why don’t you tell me your religion first? Then we’ll talk.&quot;",
+				"feedBack": "Good try, but this is not the correct answer."
+			}
+      ]
+	}
+ ]
+}     
+      

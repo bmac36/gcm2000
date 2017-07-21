@@ -1,0 +1,252 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Week 3 Activities</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+	<!-- Customized theme -->
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/mobile.css">
+    
+    <!-- Customized fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+     <link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<!-- jQuery Version 1.11.3 -->
+	<script src="../js/plugins/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="../js/plugins/bootstrap.min.js"></script>
+	<script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+<style>
+/* ADD TO main.css */
+/* Mod 2 Myth diagram */
+.myths {
+  margin-bottom: -15px; }
+
+.myths .row {
+  margin-bottom: 5px;
+  background: #f9f9f9; }
+
+.myths h3 {
+  text-align: center; }
+
+.myths .btn-invert {
+  padding: 0;
+  margin-top: 45%; }
+
+.myths .btn-invert .fa {
+  font-size: 3em; }
+
+.myths .btn-invert.btn.disabled {
+  opacity: 1; }
+</style>
+</head>
+
+<body role="document">
+
+	<header>
+		<h1>Occupational Research</h1>
+		<div class="strip"></div>
+        <div class="headerMod"> <span>3</span> 
+        <div class="triangle-right"></div>
+        </div>
+  </header>
+  
+<div class="container" role="main">
+	<div class="col-sm-12 col-xs-12">
+		<h1>Challenges of Conducting Research</h1>
+	</div>
+        <!-- START ROW -->
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+                <p>The Ontario Ministry of Economic Development, Employment and Infrastructure provides a sampling of some of the myths and reality about people with disabilities. Below is a sampling.</p>
+                <h2>Please select the arrow to reveal the reality of the situation: </h2>
+            </div>
+        </div>
+        <!-- END ROW -->
+
+        <!-- START ROW -->
+        <div class="row myths">
+            <div class="col-sm-10 col-sm-offset-1">
+                <div class="row">
+                    <div id="item_0">
+                        <div class="col-sm-4">
+                            <h3>Myth 1</h3>
+                            <p>People with disabilities are inferior to "normal" people and their lives are very different.</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <button onclick="javascript:showNext(1)" id="itembtn_1" class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12"></i><span class="sr-only">Next</span></button>
+
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="item_1">
+                        <h3>Reality 1</h3>
+                        <p>What is "normal"? We all have different abilities, talents, interests and personalities — you name it!</p>
+                        <p>People with disabilities go to school, get married, work, have families, play, do laundry, go shopping, eat out, travel, volunteer, vote, pay taxes, laugh, cry, plan and dream — just like everyone else. People with disabilities are us!</p>
+                        <button onclick="javascript:showNext(2)" id="itembtn_2" class="btn btn-main btn-lg pull-right">Next</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="item_2">
+                        <div class="col-sm-4">
+                            <h3>Myth 2</h3>
+                            <p>We need to feel sorry for people with disabilities.</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <button onclick="javascript:showNext(3)" id="itembtn_3" class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12"></i><span class="sr-only">Next</span></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="item_3">
+                        <h3>Reality 2</h3>
+                        <p>That's patronizing. People with disabilities don't need pity. They need access to opportunities.</p>
+                        <button onclick="javascript:showNext(4)" id="itembtn_4" class="btn btn-main btn-lg pull-right">Next</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="item_4">
+                        <div class="col-sm-4">
+                            <h3>Myth 3</h3>
+                            <p>People with disabilities are brave and courageous.</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <button onclick="javascript:showNext(5)" id="itembtn_5"  class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12"></i><span class="sr-only">Next</span></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="item_5">
+                        <h3>Reality 3</h3>
+                        <p>Adjusting to a disability requires adapting to a lifestyle, not bravery and courage.</p>
+                        <button onclick="javascript:showNext(6)" id="itembtn_6" class="btn btn-main btn-lg pull-right">Next</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="item_6">
+                        <div class="col-sm-4">
+                            <h3>Myth 4</h3>
+                            <p>It's not a good idea to hire people with disabilities. They have a higher turnover rate and they take sick days more often.</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <button onclick="javascript:showNext(7)" id="itembtn_7"  class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12"></i><span class="sr-only">Next</span></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="item_7">
+                        <h3>Reality 4</h3>
+                        <p>Many studies show that employees with disabilities are often more productive, dependable and loyal than their co-workers without disabilities and that staff retention is 72% higher among persons with disabilities. That adds up to savings of millions of dollars every year in hiring and training costs.</p>
+                        <p>The experiences of large corporations such as DuPont and the Royal Bank of Canada show that when business hires people with disabilities:</p>
+                        <ul>
+                            <li>the pool of potential employees becomes larger</li>
+                            <li>staff retention rates increase</li>
+                            <li>absenteeism decreases.</li>
+                        </ul>
+                        <button onclick="javascript:showNext(8)" id="itembtn_8" class="btn btn-main btn-lg pull-right">Next</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="item_8">
+                        <div class="col-sm-4">
+                            <h3>Myth 5</h3>
+                            <p>You have to be careful when you're talking to a person with a disability, because they are easily offended if you use the wrong word.</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <button onclick="javascript:showNext(9)" id="itembtn_9"  class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12"></i><span class="sr-only">Next</span></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="item_9">
+                        <h3>Reality 5</h3>
+                        <p>You just need to be as polite and respectful as you would when speaking to anyone. If you're not sure what to say or do, it's okay to ask.</p>
+                        <button onclick="javascript:showNext(10)" id="itembtn_10" class="btn btn-main btn-lg pull-right">Next</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="item_10">
+                        <div class="col-sm-4">
+                            <h3>Myth 6</h3>
+                            <p>It's difficult serving customers with disabilities.</p>
+                        </div>
+                        <div class="col-sm-2">
+                            <button onclick="javascript:showNext(11)" id="itembtn_11"  class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12"></i><span class="sr-only">Next</span></button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6" id="item_11">
+                        <h3>Reality 6</h3>
+                        <p>Customers with disabilities have the same preferences, perceptions, attitudes, habits, and needs as customers without disabilities, and they are looking for the same quality of products and services.</p>
+                        <p>
+                            Everyone, regardless of ability, deserves to be treated with the same dignity and respect.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- END ROW -->
+
+        <!-- START ROW -->
+        <div class="row">
+            <div class="callout col-sm-8 col-sm-offset-2">
+                <div class="col-sm-3"><img src="../images/icons/quiz.png" alt="" class="img-responsive">
+                </div>
+                <div class="col-sm-9">
+                    <p>Once you have reviewed the above “myths” and “reality”, please follow the link below to take the “Awareness Quiz”. This is a self-administered quiz. Once you have completed this, scroll down to the answers in order to compare your responses to the correct answers.
+                    </p>
+                    <p><strong><a href="http://www.mcss.gov.on.ca/en/mcss/programs/accessibility/customerService/trainingResourcesAODA/appendixA.aspx" target="_blank">Accessibility Standard for Customer Service: Awareness Quiz <span class="sr-only">opens in new window</span><i class="fa fa-external-link"></i></a></strong>
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- END ROW -->
+        <!-- START ROW -->
+        <div class="row">
+            <div class="col-sm-10 col-sm-offset-1">
+            </div>
+
+        </div>
+        <!-- END ROW -->
+    </div>
+                <!-- START FOOTER-->
+                <div class="footer">
+                    <p>&copy; 2016 Conestoga College. All rights reserved.</p>
+                </div>
+                <!-- END FOOTER -->
+    <!-- End Container -->
+    <script>
+        function showNext(i) {
+            $("#itembtn_" + i).removeAttr("onclick").addClass("disabled");
+            $("#item_" + i).css('visibility', 'visible').hide().fadeIn(400);
+
+        }
+        $(document).ready(function () {
+            // hide all flow chart elements
+            for (var i = 0; i <= 20; i++) {
+                $("#item_" + i).css('visibility', 'hidden');
+            }
+
+            // show first item
+            $("#item_0").css('visibility', 'visible').hide().fadeIn(400);
+
+        });
+    </script>
+
+</body>
+
+</html>

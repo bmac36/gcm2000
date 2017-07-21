@@ -1,0 +1,144 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "5",
+    "preQuizText":"This five-question quiz will test your understanding of the key concepts learned in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Organizational culture is a system of shared values, assumptions, and beliefs that governs how people behave in organizations.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "True",
+          "feedBack": "Correct! Organizational culture is the sum total of the shared values, assumptions, and beliefs that governs how people behave in organizations. It represents the unique personality and character of an organization.",
+ 		     "scoreValue": 1
+       },
+       	{
+		 	"answerText": "False",
+			"feedBack": "Good try, but this is not the correct answer."
+		}
+      ]
+	},
+         {
+      "questionType":"All That Apply",
+      "maxScoreValue": 2,
+      "questionText":"Which of the following are indicators that a company has a strong corporate culture? <strong>Select all that apply</strong>.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Happy and productive people",
+          "feedBack": "Correct! A strong corporate culture leads to worker engagement and happy and productive people. Happy and productive people drive business practice improvements.",
+	   	  "scoreValue": 1
+       },
+         {
+          "answerText": "Absenteeism and presenteeism",
+          "feedBack": "Good try, but this is not one of the indicators."
+        },
+         {
+          "answerText": "Business practice improvements",
+          "feedBack": "Correct! A strong corporate culture leads to worker engagement and happy and productive people. Happy and productive people drive business practice improvements.",
+          "scoreValue": 1
+        },
+		{
+			"answerText": "A good communications policy",
+			"feedBack": "Good try, but this is not one of the indicators."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Which of the following statements about workplace practices <strong>IS TRUE</strong>?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Workplace practices tell you a lot about an employer’s internal culture and how they live their values.",
+          "feedBack": "Values and goals vary depending on the workplace, but observing the workplace practices will always give you insight into a specific organization’s culture and values.",
+		  "scoreValue": 1
+       },
+         {
+          "answerText": "Every company’s workplace practices are fundamentally based on the same set of goals and values.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "The mission, vision, and values statements are used to create all workplace practices.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+		{
+			"answerText": "Having workplace practices ensures high employee engagement and business productivity.",
+			"feedBack": "Good try, but this is not the correct answer."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What is one of the benefits of working for a small business?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "You can remain &quot;faceless&quot; within the organization.",
+          "feedBack": "Good try, but this is not the correct answer."
+          },
+         {
+          "answerText": "If a leader makes a mistake, your job is not in jeopardy.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "The flatter structure means you can influence decision-makers.",
+          "feedBack": "That’s it! The flatter structure of a small business typically give you access to leaders and decision-makers, allowing you to influence decision-making.",
+          "scoreValue": 1
+        },
+		{
+			"answerText": "You must internally market yourself to let people know what you do.",
+			"feedBack": "Good try, but this is not the correct answer."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"If you want to feel empowered and believe in a deeper purpose, what type of leader is likely to be good for you?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Authoritarian",
+          "feedBack": "Good try, but this is not the correct answer."
+      },
+         {
+          "answerText": "Authentic",
+          "feedBack": "Good try, but this is not the correct answer."
+      },
+         {
+          "answerText": "Transformational",
+          "feedBack": "Good try, but this is not the correct answer."
+       },
+		{
+		  "answerText": "Moral",
+		  "feedBack": "Correct! The moral leader is focused on convincing followers to work towards a “greater good” and abiding by a deep sense of right or wrong.",
+		  "scoreValue": 1
+		}
+      ]
+	}
+ ]
+}     
+      

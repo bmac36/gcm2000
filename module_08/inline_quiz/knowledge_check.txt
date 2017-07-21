@@ -1,0 +1,99 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"This three-question quiz will test your understanding of the key concepts learned in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"You are interested in a applying to a job for which you are well-qualified. The only issue is that the job posting indicates you must have a minimum of three years’ experience in a specific field, which you don’t have. What should you do to overcome this obstacle?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Don't apply to this job and save yourself the time.",
+          "feedBack": "Good try, but this is not the correct answer"
+        },
+         {
+          "answerText": "List all of your volunteer activities on your r&eacute;sum&eacute;.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "Look for another job that suits you better.",
+          "feedBack": "Good try, but this in not the correct answer."
+       },
+       	{
+		 	"answerText": "Demonstrate and emphasize your transferable skills.",
+			"feedBack": "Correct! Provide proof of your transferable skills by demonstrating past accomplishments. This can help prove your suitability to a position in spite of your lack of field experience.",
+			"scoreValue": 1
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Your qualifications are too high for a position for which you have recently applied. What can you do to help assure the employer that you wouldn’t quickly leave the job for a higher position?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Indicate that you were also overqualified for some of your past jobs.",
+          "feedBack": "Good try, but this in not the correct answer."
+       },
+         {
+          "answerText": "Emphasize your fit and why you want this particular job.",
+          "feedBack": "Correct! If this is a good position, consider emphasizing your fit and why you want this job. You may also want to acknowledge that you are overqualified and commit to the job for a certain perieod of time.",
+		  "scoreValue": 1
+        },
+         {
+          "answerText": "Use your social media presence to reinforce your professionalism.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+		{
+			"answerText": "Assure the employer that you don't aspire to a higher position.",
+			"feedBack": "Good try, but this is not the correct answer."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Your writing skills are not the best and you aren’t sure your job search tools are top quality. What can you do to overcome this potential barrier?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Pick up a part-time job where you can practice speaking English.",
+          "feedBack": "Good try, but this is not the correct answer."
+      },
+         {
+          "answerText": "Watch English movies and read English newspapers.",
+          "feedBack": "Correct! Watching English movies and reading English newspapers are good ways to develop your language skills and imporve your communication.",
+		  "scoreValue": 1
+      },
+         {
+          "answerText": "Focus on describing your skills in simple language.",
+          "feedBack": "Good try, but this in not the correct answer."
+        },
+			{
+				"answerText": "Demonstrate to employers that you have used self-assessments.",
+				"feedBack": "Good try, but this is not the correct answer."
+			}
+      ]
+	}
+ ]
+}     
+      

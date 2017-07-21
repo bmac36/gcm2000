@@ -1,0 +1,58 @@
+{
+  "General":{
+    "QuizName": "Test Your Knowledge",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":false,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize":false,
+    "showQuestions":1,
+    "preQuizText":"Please complete the follow quiz question by selecting the correct answer.",
+    "preQuizMedia":"none",
+    "postQuizText":"You have completed this quiz. Please continue with the course or select 'Repeat' to retake the Quiz.",
+    "postQuizMedia":"none",
+    "onCompleteEvent":"none",
+    "hideTitle":"true"
+  },
+  "Questions":[
+    {
+      "questionType":"Multiple Choice",
+      "typeOptions":{},
+      "maxScoreValue": 1,
+      "questionTitle":"What is Sex?",
+      "questionText":"<span class='lead'>Sex is…</span>",
+      "questionMediaSrc":"none",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "A sexual activity with one’s self",
+          "feedBack": "Sorry, that is incorrect.  All of these examples can be used to define the term “sex”. While culture challenges the definition of sex, there are biological, medical and interpersonal psychological foundations that remain central to the meaning of the word."
+        },
+        {
+          "answerText": "The division of a species into male or female categories based on reproductive function",
+          "feedBack": "Sorry, that is incorrect.  All of these examples can be used to define the term “sex”. While culture challenges the definition of sex, there are biological, medical and interpersonal psychological foundations that remain central to the meaning of the word."
+        },
+        {
+          "answerText": "The state of being male or female",
+          "feedBack": "Sorry, that is incorrect.  All of these examples can be used to define the term “sex”. While culture challenges the definition of sex, there are biological, medical and interpersonal psychological foundations that remain central to the meaning of the word."
+        },
+        {
+          "answerText": "Sexual activity between 2 or more consenting individuals that includes but is not limited to sexual intercourse",
+          "feedBack": "Sorry, that is incorrect.  All of these examples can be used to define the term “sex”. While culture challenges the definition of sex, there are biological, medical and interpersonal psychological foundations that remain central to the meaning of the word."
+        },
+        {
+          "answerText": "All of the above",
+          "feedBack": "That’s right! While culture challenges the definition of sex, there are biological, medical and interpersonal psychological foundations that remain central to the meaning of the word.",
+          "scoreValue": 1
+        }
+      ]
+    }
+
+
+  ]
+
+}

@@ -1,0 +1,157 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "5",
+    "preQuizText":"Complete the following five-question knowledge check to test what you’ve learned about Teamwork.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Which of the following groups is an example of a team?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "12-person management consulting firm",
+          "feedBack": "Nice try, but a 5-person health and safety task force is a better example of a team because it consists of a group of more three or more people working together towards a specific goal (health and safety of their workplace)."
+       },
+       	{
+    		 	"answerText": "5-person health and safety task force",
+    			"feedBack": "Correct! This is a team because it consists of a group of more three or more people working together towards a specific goal (health and safety of their workplace).",
+          "scoreValue": 1
+    		},
+    		{
+    			"answerText": "2-person staff of office coordinators",
+    			"feedBack": "Nice try, but a 5-person health and safety task force is a better example of a team because it consists of a group of more three or more people working together towards a specific goal (health and safety of their workplace)."
+    		},
+    		{
+    			"answerText": "Marketing department of a large firm",
+    			"feedBack": "Nice try, but a 5-person health and safety task force is a better example of a team because it consists of a group of more three or more people working together towards a specific goal (health and safety of their workplace)."
+    		}
+      ]
+  	},
+     {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What characterizes the move from the “Storming” to the “Norming” stage of team development?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Team members respect each other’s differences and solve problems collaboratively.",
+          "feedBack": "Correct! During the Norming stage of team development, team members are able to resolve their differences and actively work together to achieve project outcomes.",
+	   	  "scoreValue": 1
+        },
+         {
+          "answerText": "Team members become extremely high performing, requiring little oversight from their leaders.",
+          "feedBack": "Nice try, but during the Norming stage of team development, team members are able to resolve their differences and actively work together to achieve project outcomes."
+        },
+         {
+          "answerText": "Team member roles and expectations are clarified and ground rules are established.",
+          "feedBack": "Nice try, but during the Norming stage of team development, team members are able to resolve their differences and actively work together to achieve project outcomes."
+        },
+    		{
+    			"answerText": "Team members are able to successfully complete the main objective of their project.",
+    			"feedBack": "NNice try, but during the Norming stage of team development, team members are able to resolve their differences and actively work together to achieve project outcomes."
+    		}
+      ]
+  	},
+     {
+      "questionType":"All That Apply",
+      "maxScoreValue": 3,
+      "questionText":"One challenge of group work, is that some team members may choose not to work as hard and let others do most of the project work. What could you do to help address this issue? <em>Select all that apply.</em>",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Set the example by doing your job well.",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "Work with underperformers to improve their work quality.",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "Make sure roles and responsibilities are clearly established.",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+  		  {
+    			"answerText": "Expose non-performing team members to leadership.",
+    			"feedBack": ""
+  		  }
+      ]
+    },
+      {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"You are dealing with a conflict situation where both parties consider the issues too important to compromise on. The parties place a high value on their relationships with each other and you have time to come to a consensus. What conflict management style should you use in this case?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Accommodating",
+          "feedBack": "Nice try, but because the issues at stake are very important to both parties, and their interest in maintaining good relationships with each other is high, it is best to use a collaborating conflict management style. This ensures a true win/win situation."
+        },
+         {
+          "answerText": "Compromising",
+          "feedBack": "Nice try, but because the issues at stake are very important to both parties, and their interest in maintaining good relationships with each other is high, it is best to use a collaborating conflict management style. This ensures a true win/win situation."
+        },
+         {
+          "answerText": "Collaborating",
+          "feedBack": "Correct! Because the issues at stake are very important to both parties, and their interest in maintaining good relationships with each other is high, it is best to use a collaborating conflict management style. This ensures a true win/win situation.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Competing",
+          "feedBack": "Nice try, but because the issues at stake are very important to both parties, and their interest in maintaining good relationships with each other is high, it is best to use a collaborating conflict management style. This ensures a true win/win situation."
+        },
+        {
+          "answerText": "Avoiding",
+          "feedBack": "Nice try, but because the issues at stake are very important to both parties, and their interest in maintaining good relationships with each other is high, it is best to use a collaborating conflict management style. This ensures a true win/win situation."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What is an appropriate way to start a dialogue with someone to whom you want to give some work-related feedback?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "&quot;I would like to give you some feedback, is now okay?&quot;",
+          "feedBack": "Always start by preparing the person for what you gave to say and finding out if the timing is good for them.",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "&quot;I’ve observed/ noticed X about your behaviour lately.&quot;",
+          "feedBack": "Always start by preparing the person for what you gave to say and finding out if the timing is good for them."
+        },
+         {
+          "answerText": "&quot;Do you remember something you did that offended someone recently?&quot;",
+          "feedBack": "Always start by preparing the person for what you gave to say and finding out if the timing is good for them."
+        },
+        {
+          "answerText": "&quot;When you do X, it makes me feel…&quot;",
+          "feedBack": "Always start by preparing the person for what you gave to say and finding out if the timing is good for them."
+        }
+      ]
+  	}
+  ]
+}     
+      

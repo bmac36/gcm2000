@@ -1,0 +1,99 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"This three-question quiz will test your understanding of the key concepts learned in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"An employer selected another job candidate. While you are disappointed, you want to leave a lasting impression that may influence his decision to hire you at a future date. What should you do?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Leave a long voicemail thanking the employer in-depth.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "Send an email outlining what you learned from the interview.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "Send a thank you letter to the employer.",
+          "feedBack": "Correct! Sending the employer a letter thanking them for taking the time to interview you can make a favourable impression.",
+ 		  "scoreValue": 1
+       },
+       	{
+		 	"answerText": "Confidently explain why you were the best job candidate.",
+			"feedBack": "Good try, but this in not the correct answer."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What does it mean if you receive a conditional job offer?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "You will get the job if you pass a second interview.",
+          "feedBack": "Good try, but this is not the correct answer."
+       },
+         {
+          "answerText": "You need to negotiate salary, benefits, and vacation.",
+          "feedBack": "Good try, but this in not the correct answer."
+        },
+         {
+          "answerText": "You must notify your current employer about the new job.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+		{
+			"answerText": "The job will be offered to you if you meet certain conditions.",
+			"feedBack": "Correct! In the case of a conditional offer, the employer will offer you the job once you have met certain conditions, such as reference and qualification checks.",
+			"scoreValue": 1
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What can help you to learn from your mistakes after an unsuccessful interview?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Reading online articles about interviewing.",
+          "feedBack": "Good try, but this is not the correct answer."
+      },
+         {
+          "answerText": "Completing the Interview Evaluation Checklist.",
+          "feedBack": "Correct! Completing the Interview Evaluation Checklist can help you to identify any specific areas that you could improve upon.",
+ 		  "scoreValue": 1
+      },
+         {
+          "answerText": "Sending a thank you letter to the employer.",
+          "feedBack": "Good try, but this in not the correct answer."
+       },
+			{
+				"answerText": "Reminding yourself that mistakes are normal.",
+				"feedBack": "Good try, but this is not the correct answer."
+			}
+      ]
+	}
+ ]
+}     
+      

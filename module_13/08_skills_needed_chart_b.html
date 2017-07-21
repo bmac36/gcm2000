@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Figure 2: Present Employer Skill Requirements</title>
+		<script src="../js/plugins/Chart.js-master/Chart.js"></script>
+		<style>
+			body{
+				margin: 0;
+					width: 350px;
+				height: 350px;
+		}
+			.align-center {
+				diisplay: block;
+				margin: 0 auto;
+			}
+			#canvas-holder{
+				width:50%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="canvas-holder align-center">
+			<canvas id="chart-area" width="300" height="300"/>
+		</div>
+
+
+	<script>
+
+		var doughnutData = [
+				{
+					value: 40,
+					color:"#9c141c",
+					highlight: "#cb1924",
+					label: "Management/Leadership"
+				},
+				{
+					value: 36,
+					color: "#282828",
+					highlight: "#333333",
+					label: "Interpersonal Skills"
+				},
+				{
+					value: 32,
+					color: "#3399cc",
+					highlight: "#38afe8",
+					label: "Computer Skills"
+				},
+				{
+					value: 32,
+					color: "#133a65",
+					highlight: "#1a4f8a",
+					label: "Technical Skills"
+				},
+				{
+					value: 30,
+					color: "#4D5360",
+					highlight: "#616774",
+					label: "Professional Designations"
+				}
+
+			];
+
+			window.onload = function(){
+				var ctx = document.getElementById("chart-area").getContext("2d");
+				window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : true});
+			};
+
+
+
+	</script>
+	</body>
+</html>

@@ -1,0 +1,54 @@
+{
+  "General":{
+    "QuizName": "Discover Your Approach to Conflict",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "1",
+    "preQuizText":"Each of us has a conflict management style with which we are naturally more comfortable. Knowing your approach to conflict and when it is best to use it can help you to reach your desired results. Be aware of your comfort level with styles that differ from your own so that you can find ways to develop proficiency in other conflict management styles. Each style can be used to advantage, depending on the situation.",
+    "preQuizMedia": "none",
+    "postQuizText":"You have completed this assessment. <h2>Scroll down and click on <b>'Chart Listing'</b> below to see all the possible <b>Approaches to Conflict</b>.</h2>",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Select the description that best suits you to discover more about your approach.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "I prefer to let others take the lead in problem-solving to avoid situations involving conflict.",
+          "feedBack": "You tend to be an <b>Avoider</b> when it comes to managing conflict. You dislike direct confrontation and may seek other indirect methods of handling conflict, such as passive aggressive communication. This approach can be beneficial when an issue is inconsequential, you are too busy, or you have limited power to influence it the situation. Not taking action, however, may aggravate tensions and lead to an undesirable outcome.",
+          "scoreValue": 1
+       },
+       	{
+		 	"answerText": "I like to find a solution in the middle, even though I may have to sacrifice some of my aims.",
+			"feedBack": "You tend to be a <b>Compromiser</b> when it comes to managing conflict. You like to meet in the middle with all parties and come to an agreement quickly. This may be appropriate when you have two strong parties with mutually exclusive objectives and when achieving these aims is not a top priority for the organization. Both sides will need to concede in these cases to come to a satisfactory resolution, which may only temporarily delay dealing with real conflict and issues.",
+			"scoreValue": 1
+		},
+ 	     {
+        "answerText": "I like to ask for the advice of my peers to find solutions that everyone is satisfied with.",
+        "feedBack": "You tend to be a <b>Collaborator</b> when it comes to managing conflict. You like to work together to get as many needs as possible met on both sides. This helps to solve conflicts, while also building a foundational of trust for the future. This approach is ideal when you are dealing with issues that both parties consider too important to compromise on. It creates a win/win solution that incorporates ideas and perspectives from all sides. Reaching consensus can take time, so it is best to use this approach when a quick solution is not required.",
+        "scoreValue": 1
+    	},
+    	 {
+    	"answerText": "I will gladly give up some of my viewpoints if it will help maintain beneficial relationships.",
+    	"feedBack": "You tend to be an <b>Accomodator</b> when it comes to managing conflict. You value your relationships with other parties and will tend to cede ground on an issue that is more important to the other side as a goodwill gesture. This approach is valuable for getting quick resolution in cases where the relationship is more important to you than the issue at hand; however, you may compromise your power to influence the outcome of future conflicts.",
+    	"scoreValue": 1
+   		},
+    	 {
+    	"answerText": "I take a strong position when conveying my views with the hopes of changing my opponent’s views.",
+    	"feedBack": "You tend to be a <b>Competitor</b> when it comes to managing conflict. You are not afraid to take an aggressive approach and using your power and advantages to pursue your goals, even when it negatively impacts others. Winning in this way can be advantageous when you need to move quickly, as in a competitive situation or when the best interests of the organization are at stake, however a lack of give-and-take can strain your relationship with the other parties.",
+    	"scoreValue": 1
+    	}
+  	  ]
+	}
+  ]
+}     

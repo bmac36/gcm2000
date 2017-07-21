@@ -1,0 +1,71 @@
+{
+  "General":{
+    "QuizName": "My Sample Quiz",
+    "feedBackType":"report"
+
+  },
+  "Questions":[
+    {
+      "questionType":"All That Apply",
+      "questionText":"What are the names of Atticus' two children?",
+      "hintText":"He had one son, and one daughter",
+      "answers": [
+        {
+          "answerText": "Jem",
+          "feedBack": "Correct! Jem is Atticus' son.",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Scout",
+          "feedBack": "Correct! Scout is Atticus' daughter.",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Boo",
+          "feedBack": "Not quite -- Boo Radley is a part of the Radley family!"
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "questionText":"What is Scout's real name?",
+      "answers": [
+        {
+          "answerText": "Jean-Louise Finch",
+          "feedBack": "Correct!",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Carolyn-Louise Finch",
+          "feedBack": "Incorrect! That isn't Scout's real name."
+        },
+        {
+          "answerText": "Bonnie-Sue Finch",
+          "feedBack": "Incorrect! That isn't Scout's real name."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "questionText":"Where does the story take place?",
+      "hintText":"It takes place in a \"tired old town\".",
+      "answers": [
+        {
+          "answerText": "Chicaco"
+        },
+        {
+          "answerText": "Atlanta"
+        },
+        {
+          "answerText": "Maycomb County",
+          "isCorrect": true
+        },
+        {
+          "answerText": "Rattlesnake Creek"
+        }
+      ]
+    }
+
+  ]
+
+}

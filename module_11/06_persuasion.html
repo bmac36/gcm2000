@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Persuasion vs. Manipulation</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+	<!-- Customized theme -->
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/mobile.css">
+    
+    <!-- Customized fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+     <link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<!-- jQuery Version 1.11.3 -->
+	<script src="../js/plugins/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="../js/plugins/bootstrap.min.js"></script>
+	<script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+
+	<header>
+		<h1>Communicating with Others</h1>
+		<div class="strip"></div>
+        <div class="headerModDbldigit"> <span>11</span> 
+        <div class="triangle-right"></div>
+        </div>
+  </header>
+  
+<div class="container" role="main">
+	<div class="col-sm-12 col-xs-12">
+		<h1>Persuasion vs. Manipulation</h1>
+	</div>
+<!-- START ROW -->
+	<div class="row">
+  		<div class="col-sm-10 col-sm-offset-1">
+         <div class="callout">
+     	<blockquote class="lead">
+        	<img src="../images/mentors/anwar.jpg" class="img-circle circle-med dot-brdr primary-brdr pull-right" alt="Mentor Anwar" />
+          <p>Persuasion and manipulation are two additional forms of communication that you are likely to encounter in the workplace. You may think that these are one in the same, but there is a distinct difference between the two. While they are both methods of persuading people to do something for you or change their thinking to match yours, they follow very different styles.</p>
+          <p class="small">Anwar</p>
+          </blockquote>
+          </div>
+          <h3 class="text-center secondary_text">------------- Persuasion is ethical, while manipulation is not --------------</h3>
+          <p><strong>Click each communication style to learn more.</strong></p>
+          <div class="persuasion float-left">
+          	<p class="text-center"><a id="showPersuasion"><i class="fa fa-heart fa-3x persuasion_icon"></i><br /><strong>Persuasion</strong></a></p>
+            <div id="persuasion" class="well secondary_bg" style="display: none;">
+            	<ul>
+              	<li>Persuasion means respect, truthful communication, and involvement in decision-making. </li>
+                <li>Particularly when coupled with assertive communication, persuasion helps you to communicate, motivate, and build relationships with others.</li>
+                <li>When persuading, you cannot simply command others to do something, rather you must engage them in a situation/problem and collaborate with them on an approach/resolution.</li>
+                <li>Effective persuasion means people will help with solving a problem because they want to, not have to.</li>
+            </ul>
+          </div>
+          </div>
+          <div class=" manipulation float-right">
+          	<p class="text-center"><a id="showManipulation"><i class="fa fa-flash fa-3x manipulation_icon"></i><br /><strong>Manipulation</strong></a></p>
+            	<div id="manipulation" class="well accent02_bg" style="display: none;">
+              	<ul>
+                	<li>Manipulation involves persuading others in an attempt to control them or for self-centered reasons. </li>
+                  <li>Convincing people to follow for hidden reasons or lying about the benefits associated with a course of action is considered manipulation. </li>
+                  <li>If you are caught manipulating others, relationships can be damaged. You may also lose credibility and create negative feelings among your work colleagues. </li>
+              </ul>
+              <p>&nbsp;</p>
+              <a id="showNext" class="btn-circle align-right pad-top"><i class="fa fa-arrow-circle-o-right fa-2x"></i><p class="text-small">Next</p></a>
+             </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="callout" id="next" style="display: none;">
+          	<h3>Persuasive Skills and Leadership</h3>
+            <p>Leaders often have strong persuasive skills. Key decisions about organizations often involve wide range of voices rather that strictly a top-down approach. Increasingly, employers are adopting a “participative work style”, where all levels of employees help with ideas and implementation. Less hierarchy means persuasive skills are highly valued in leaders today.</p>
+        </div>
+  		<p class="text-small pad-top"><strong>Reference:</strong><br />
+      deJanasz, S., Dowd, K., &amp; Schneider, B. (2009). <em>Interpersonal Skills in Organizations</em> (4th Ed.,) New York: New York: McGraw-Hill Irwin.</p>
+    </div>
+<!-- END ROW --></div>
+<!-- End Container --></div>
+
+	<div class="footer">
+		<p>&copy; 2016 Conestoga College. All rights reserved.</p>
+	</div>
+
+	<!-- EOF: footer -->
+<script>
+$(document).ready(function(){
+    $("#showPersuasion").click(function(){
+        $("div#persuasion").show();
+    });
+    $("#showManipulation").click(function(){
+        $("div#manipulation").show();
+    });
+		$("#showNext").click(function(){
+			$("div#next").show();
+		});
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "2",
+    "preQuizText":"Complete this two-question knowledge check to test your understanding of interpersonal skills. <br /><br />Test your understanding by identifying how interpersonal skills impacted by your mentors in each of the following cases.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<b>Mentor Case #1: Anwar &mdash; Getting support from the team.</b><br />Consider Anwar’s experience:<br /><br />&quot;When I was a new employee, I often needed help with learning the systems involved with my work. Fortunately for me, my more experienced coworkers frequently came to my aid to teach me the systems. They also offered me suggestions on how I could do my job more efficiently. No one told my more-seasoned colleagues to help me out. They clearly considered me as part of the team from the beginning, and by helping me, they were helping everyone on the team, and ultimately, they were helping the organization have the highest degree of productivity.&quot;<br /><br />Which <b>empathy</b> skill did Anwar’s team demonstrate in this circumstance? ",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Developing others",
+          "feedBack": "Correct! Anwar’s coworkers demonstrated empathy in helping him to develop as a productive team member. They understood that he lacked experience (and perhaps the confidence to ask for help) and proactively took steps to assist him to the betterment of the team and the organization.",
+          "scoreValue": 1
+       },
+       	{
+    		 	"answerText": "Conflict management",
+    			"feedBack": "Not quite. Anwar’s coworkers demonstrated empathy in helping him to develop as a productive team member. They understood that he lacked experience (and perhaps the confidence to ask for help) and proactively took steps to assist him to the betterment of the team and the organization."
+    		},
+    		{
+    			"answerText": "Political awareness",
+    			"feedBack": "Not quite. Anwar’s coworkers demonstrated empathy in helping him to develop as a productive team member. They understood that he lacked experience (and perhaps the confidence to ask for help) and proactively took steps to assist him to the betterment of the team and the organization."
+    		},
+        {
+          "answerText": "Leveraging diversity",
+          "feedBack": "Not quite. Anwar’s coworkers demonstrated empathy in helping him to develop as a productive team member. They understood that he lacked experience (and perhaps the confidence to ask for help) and proactively took steps to assist him to the betterment of the team and the organization."
+        }
+      ]
+  	},
+     {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<b>Mentor Case #2: Charizar &mdash; Taking steps to improve her division’s image.</b><br />Consider Charizar’s experience:<br /><br />&quot;I remember being promoted to a mid-level position in a brand new division in my organization. I had some ideas about how to improve the division’s image with our customers (which was pretty bad at the time). On my first attempt to explain my ideas at a staff meeting, I had difficulty speaking properly and kept stumbling over my words. Everyone in the meeting was confused with what I was trying to say. I didn’t want to give up on my good ideas and asked my supervisor for a second chance. Before my second attempt, I wrote everything out on a script. I also drew a diagram to help everyone follow my thinking visually. I practiced what I would say. This second attempt went much better. After I got through my speech, there was much discussion. People understood my concerns and suggestions, and my boss was so impressed with how well I communicated my ideas that they put me in charge of developing a new set of policies to retain our customers.&quot;<br /><br />Which social skill did Charizar develop in order to sell her good ideas to her team?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Building bonds",
+          "feedBack": "Not quite. Charizar was able to develop her communication skills to gain buy in to her ideas among her team the second time around. She accomplished this by better preparing for her speech with a written script and creating a diagram that would help team members to better visualize her concepts."
+        },
+         {
+          "answerText": "Communication",
+          "feedBack": "Correct! Charizar was able to develop her communication skills to gain buy in to her ideas among her team the second time around. She accomplished this by better preparing for her speech with a written script and creating a diagram that would help team members to better visualize her concepts.",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "Collaboration and cooperation",
+          "feedBack": "Not quite. Charizar was able to develop her communication skills to gain buy in to her ideas among her team the second time around. She accomplished this by better preparing for her speech with a written script and creating a diagram that would help team members to better visualize her concepts."
+  		  },
+        {
+          "answerText": "Political awareness",
+          "feedBack": "Not quite. Charizar was able to develop her communication skills to gain buy in to her ideas among her team the second time around. She accomplished this by better preparing for her speech with a written script and creating a diagram that would help team members to better visualize her concepts."
+        }
+      ]
+  	}
+  ]
+}     
+      

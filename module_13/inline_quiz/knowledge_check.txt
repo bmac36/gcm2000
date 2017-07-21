@@ -1,0 +1,102 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"Complete this three-question knowledge check based around your mentor Charizar’s learning experiences, to test your understanding of the material covered in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Consider Charizar’s initial thoughts about learning after she graduated:<br />&quot;After graduation, I assumed that I was done with learning new things and was focused just on getting a job and earning a salary.&quot;<br /><br />What’s the issue with adopting this type of mindset towards learning, where you are &quot;done&quot; pursuing learning once your formal education ends? <b>Select the correct answer.</b>",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "It is not likely to impress an employer during the interview process.",
+          "feedBack": ""
+       },
+       	{
+    		 	"answerText": "It may keep you from acquiring the skills and knowledge needed to succeed.",
+    			"feedBack": ""
+    		},
+    		{
+    			"answerText": "It may prevent you from keeping pace with or ahead of your competitors.",
+    			"feedBack": ""
+    		},
+    		{
+    			"answerText": "All of these are correct.",
+    			"feedBack": "",
+          "scoreValue": 1
+    		}
+      ]
+  	},
+     {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Consider Charizar’s change of heart about learning once she started her career:<br /> &quot;I realized that I actually really enjoy learning new things. I decided to sign up for a continuing education course so that I could develop my project management skills. I also asked for more development opportunities around project management at work so that I will have the practice necessary to become a great project manager.&quot;<br /><br />What did Charizar do to make meaningful connections between her formal learning and her work? (Note: This relates to the stages in the MASTER model for effective learning.)  <br>Select the correct answer.</b>",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "She asked for development opportunities to practice project management skills at work.",
+          "feedBack": "Correct! Asking for development activities at work gave Charizar the chance to apply what she learned in the classroom to develop the specific project management knowledge and skills she needed to be successful in her job.",
+	   	  "scoreValue": 1
+        },
+         {
+          "answerText": "She asked for extra time at work to study for her continuing education course.",
+          "feedBack": "Nice try. Asking for development activities at work gave Charizar the chance to apply what she learned in the classroom to develop the specific project management knowledge and skills she needed to be successful in her job."
+        },
+         {
+          "answerText": "She took detailed notes during her course and shared them with her colleagues.",
+          "feedBack": "Nice try. Asking for development activities at work gave Charizar the chance to apply what she learned in the classroom to develop the specific project management knowledge and skills she needed to be successful in her job."
+        },
+    		{
+    			"answerText": "She decided that she wanted to take the steps necessary to becoming a great project manager.",
+    			"feedBack": "NNice try. Asking for development activities at work gave Charizar the chance to apply what she learned in the classroom to develop the specific project management knowledge and skills she needed to be successful in her job."
+    		}
+      ]
+  	},
+     {
+      "questionType":"All That Apply",
+      "maxScoreValue": 4,
+      "questionText":"Consider how Charizar also pursued learning in her personal life:<br /> &quot;I am passionate about knitting, and developing my knitting abilities makes me feel good. I joined a knitting club and have the opportunity to share this passion with new people.&quot;<br /><br />Which benefits has Charizar realized by pursuing personal development opportunities (in this case, related to knitting)? <b>Select all that apply.</b>",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Increased sense of well-being",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "Interpersonal communication skills",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "An increased network of personal contacts",
+          "feedBack": "",
+          "scoreValue": 1
+        },
+  		  {
+    			"answerText": "Improved knitting skills",
+    			"feedBack": "",
+          "scoreValue": 1
+  		  }
+      ]
+  	}
+  ]
+}     
+      

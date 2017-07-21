@@ -1,0 +1,67 @@
+{
+    "QuizName" : "Activity: Matching Media",
+    "ActivityType" : "sort",
+    "FeedbackType" : "continuous",
+    "CorrectFeedback" : true,
+    "WrongFeedback" : true,
+    "HighlightEffect" : true,
+    "QuestionColums" : "1",
+    "Randomize" : true,
+    "PreQuizText" : "none",
+    "PreQuizMedia": "none",
+    "IncludePostPage" : true,
+    "PostQuizText" : "Way to go, You have matched all the medias to the correct description!",
+    "PostQuizMedia": "none",
+    "AnswerNodes": [
+        {
+            "key": "cat_01",
+             "title": "Internet",
+             "color": "#007298"
+        },
+        {
+            "key": "cat_02",
+            "title": "Magazine",
+            "color": "#00848E"
+        },
+        {
+            "key": "cat_03",
+            "title": "Television",
+            "color": "#CC3730"
+        },
+        {
+            "key": "cat_04",
+            "title": "Music Videos",
+            "color": "#5C666F"
+        }
+    ],
+    "QuestionNodes": [
+        {
+            "question" : "This content is sexually explicit and more easily accessible than any other form of information we have ever had.",
+            "answer" : "cat_01",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "This media concentrates more on helping women use sex to find and keep a man and rather than topics of sexual health. There are few references to same sex couples.",
+            "answer" : "cat_02",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "Sexual talk and displays, including sexual intercourse, are increasingly more common in this form of media with each year.",
+            "answer" : "cat_03",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        },
+        {
+            "question" : "Critical analysis of this media demonstrates clear sexual messages and overtones.  Some of the common themes are centred on myths and stereotypes about women that foster negative attitudes towards women.",
+            "answer" : "cat_04",
+            "type" : "text",
+            "correct" : "Correct!",
+            "wrong" : "Incorrect!"
+        }
+    ]
+}

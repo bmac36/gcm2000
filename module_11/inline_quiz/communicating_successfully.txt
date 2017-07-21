@@ -1,0 +1,87 @@
+{
+  "General":{
+    "QuizName": "Communicating Successfully",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"A student was recently hired into a co-op work term at a medium-sized business. He thought effective communication with his boss and co-workers would be easy but quickly realized that there are many variables to consider. He approached Naweed looking for advice on ways to improve his workplace communications.<br /><br />What should Naweed advise the student to do to improve his communication?",
+    "preQuizMedia": "none",
+    "postQuizText":"<h2>Summary</h2>The student appreciated hearing Naweed’s advice. He realized that adjusting his communication style depending on the circumstance could help him to communicate more effectively. He learned the value of always respecting his audience, and how assertive communication and persuasion techniques support this approach.<br /><br />As you enter the workforce, consider how you will adjust your communication style based on your personality, the organizational culture, workplace customs, message, and audience.",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<h3>Communicating in an Emergency</h3> The student volunteered to be a fire warden in his department. This means he must ensure the evacuation of his section of the building during an emergency. Recently, a fire alarm went off in the building but his co-workers didn’t take it seriously. The student tried to convince them to leave the building but they wouldn’t listen.<br /><br />What should Naweed advise the student to do next time to better carry out his duties?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Keep calm and accept your co-workers’ decision.",
+          "feedBack": "Incorrect. A passive approach to his co-workers would not be helpful. In an emergency situation, an aggressive communication style is needed to get the employees to leave immediately."
+       },
+       	{
+		 	"answerText": "Honestly tell your co-workers how you feel about their decision.",
+			"feedBack": "Incorrect. Assertive communication is preferable in most conditions, except in the case of emergency. An aggressive communication style is needed during an emergency to get the employees to leave immediately."
+		},
+      {
+        "answerText": "Clap your hands and loudly tell your co-workers to leave immediately.",
+        "feedBack": "Correct! These communication tactics, while aggressive, would be effective ways of getting the passive group to take action during an emergency situation.",
+        "scoreValue": 1
+    }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<h3>Communicating Disagreement</h3>The student’s boss recently assigned him a report to complete. He was given a very short completion timeline that he considered unreasonable. Not wanting to look bad in front of his boss, he smiled and told her that he could meet the deadline. Now he is stressed out and feeling resentful towards his boss.<br /><br />What should Naweed advise the student to do?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Angrily tell your boss that she is being unfair and too demanding.",
+          "feedBack": "Incorrect. Lashing out at his boss angrily is an aggressive means of trying to change the deadline. An assertive approach would be much more likely to achieve a positive result."
+       },
+         {
+          "answerText": "Calmly recognize the urgency to get the report done but honestly share your concerns.",
+          "feedBack": "Correct! Using an assertive style would allow the student to speak honestly about his concerns while still respecting his boss. This would be much more likely to achieve a positive result in the interests of both parties.",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "Use disapproving body language, such as frowning, to show you disagree with the tight timeline.",
+          "feedBack": "Incorrect. Signaling disagreement non-verbally through body language is a passive strategy that is unlikely to work. An assertive approach would be much more likely to achieve a positive result."
+		}
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"<h3>Convincing Others</h3>The student was tasked with automating a manual process. He pitched a proposal to his co-workers but they were very dismissive. They felt it would be too difficult to implement. As a result, nothing was done and his boss was disappointed.<br /><br />What should Naweed advise the student to do to increase his odds of success?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Engage your co-workers by getting their input and involving them in decision-making.",
+          "feedBack": "Correct! Involving his co-workers in the decision-making regarding the proposed business process change would likely gain their buy-in and persuade them to adopt the new procedure.",
+		  "scoreValue": 1
+       },
+         {
+          "answerText": "Tell your co-workers that all of your competitors are using the proposed process, even though this isn’t exactly true.",
+          "feedBack": "Incorrect. Pushing your co-workers to accept your proposal based on a lie is manipulative and will likely damage your credibility with them once the truth is known. It would be better to earn their trust by engaging them in the decision-making process."
+        },
+         {
+          "answerText": "Go ahead and automate the process and tell your co-workers they have to adopt it.",
+          "feedBack": "Incorrect. Taking initiative in this case would be a bad idea. It would likely alienate your co-workers, since they didn’t have a say in the matter. It would be better to gain their buy-in and trust by engaging them in the decision-making process."
+        }
+      ]
+	}
+ ]
+}     
+      

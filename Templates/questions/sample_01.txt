@@ -1,0 +1,124 @@
+{
+  "General":{
+    "QuizName": "My Sample Quiz",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":false,
+    "showHints": true,
+    "allowPartial": false,
+    "randomize":true,
+    "showQuestions":3,
+    "preQuizText":"<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rhoncus nibh porta dui consequat, quis tempor dolor mollis. Donec sed justo neque. Ut sem nulla, commodo at justo non, dictum facilisis lectus. Vestibulum sit amet pretium neque. Sed erat nulla, molestie quis elit in, auctor posuere erat. Nam sit amet eros auctor, rhoncus nibh in, facilisis ligula. Nam lectus orci, vestibulum ut gravida nec, tempus at neque.</p><p> Curabitur gravida dui quis laoreet luctus. In commodo pellentesque lectus, et pretium augue consectetur at. Sed lacinia aliquam nisi, nec varius mi dictum sed. Fusce imperdiet faucibus dui non mollis. Morbi facilisis ante in risus rutrum molestie. Nunc varius nisi maximus mollis porttitor. Cras ligula leo, malesuada et facilisis ut, eleifend condimentum urna. Ut suscipit justo a lectus faucibus porttitor. Ut euismod mi sed est volutpat, non bibendum nisl semper.</p>",
+    "preQuizMedia":[
+      {
+        "type": "image",
+        "src": "http://images4.fanpop.com/image/photos/16000000/Cute-Kitten-kittens-16096139-1280-800.jpg",
+        "description": "A Kitten!",
+        "mediaLink": "http://33.media.tumblr.com/tumblr_lmhmojMC7R1qhy6c9o1_400.gif",
+        "width": "350",
+        "height": "280"
+      },
+      {
+        "type": "link",
+        "src": "https://github.com",
+        "description": "A website!"
+      }
+    ],
+    "postQuizText":"none",
+    "postQuizMedia":[
+      {
+        "type": "YouTubeVideo",
+        "src": "https://www.youtube.com/watch?v=OZBWfyYtYQY"
+      }
+    ],
+    "onCompleteEvent":"none"
+  },
+  "Questions":[
+    {
+      "questionType":"All That Apply",
+      "typeOptions":{},
+      "maxScoreValue": 2,
+      "questionText":"What are the names of Atticus' two children?",
+      "questionMediaSrc":"none",
+      "hintText":"He had one son, and one daughter",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Jem",
+          "feedBack": "Correct! Jem is Atticus' son.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Scout",
+          "feedBack": "Correct! Scout is Atticus' daughter.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Boo",
+          "feedBack": "Not quite -- Boo Radley is a part of the Radley family!"
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "typeOptions":{},
+      "maxScoreValue": 1,
+      "questionText":"What is Scout's real name?",
+      "questionMediaSrc":"none",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Jean-Louise Finch",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Carolyn-Louise Finch",
+          "feedBack": "Incorrect! That isn't Scout's real name."
+        },
+        {
+          "answerText": "Bonnie-Sue Finch",
+          "feedBack": "Incorrect! That isn't Scout's real name."
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "typeOptions":{},
+      "maxScoreValue": 2,
+      "questionText":"Where does the story take place?",
+      "questionMediaSrc":"none",
+      "hintText":"It takes place in a \"tired old town\".",
+      "hintMedia":[
+        {
+          "type": "image",
+          "src": "http://2.bp.blogspot.com/_yKeTtKxginI/TMRmuP0RtdI/AAAAAAAAAAM/vemreGui74g/s1600/radleyhouse1.jpg",
+          "description": "old house",
+          "mediaLink": "http://33.media.tumblr.com/tumblr_lmhmojMC7R1qhy6c9o1_400.gif"
+        }
+      ],
+      "answers": [
+        {
+          "answerText": "Chicaco"
+        },
+        {
+          "answerText": "Atlanta"
+        },
+        {
+          "answerText": "Maycomb County",
+          "scoreValue": 2
+        },
+        {
+          "answerText": "Rattlesnake Creek",
+          "feedBack": "Eh, close enough",
+          "scoreValue": 1
+        }
+      ]
+    }
+
+  ]
+
+}
