@@ -1,0 +1,241 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "8",
+    "preQuizText":"Answer the following eight (8) questions based on what you learned in the video tutorials and written materials you reviewed.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Which of the following research questions contains just the right amount of detail - being neither too specific nor too vague?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Why do people drive electric cars?",
+          "feedBack": "Good try! While this question would provide a lot of feedback, you would have to dig through too much information to find the specifics you are looking for."
+        },
+         {
+          "answerText": "How many Ontario drivers prefer electric cars over other types of cars because they like how they look?",
+          "feedBack": "Good try! While this question would return very specific information, it is not broad enough to get good overall search results."
+        },
+         {
+          "answerText": "What are some of the reasons why Canadians choose to purchase electric cars?",
+          "feedBack": "That's it! This research question provides enough detail to yield useful search results.",
+           "scoreValue": 1
+       }
+              
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What type of information are <b>Encyclopedias</b> well-suited to providing?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Background Information",
+          "feedBack": "That's it! Encyclopedias are best suited to providing background information.",
+           "scoreValue": 1
+       },
+         {
+          "answerText": "In-depth Information",
+          "feedBack": "Good try! Encyclopedias are best suited to providing background information."
+        },
+         {
+          "answerText": "Company Products and Services",
+          "feedBack": "Good try! Encyclopedias are best suited to providing background information."
+        },
+         {
+          "answerText": "Current Events and Issues",
+          "feedBack": "Good try! Encyclopedias are best suited to providing background information."
+        },              
+          {
+          "answerText": "Results of a Research Study",
+          "feedBack": "Good try! Encyclopedias are best suited to providing background information."
+        }
+      ]
+	},
+
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What type of information are <b>Books and E-Books</b> well-suited to providing?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Company Products and Services",
+          "feedBack": "Good try! Books and e-books are best suited to providing in-depth information."
+       },
+         {
+          "answerText": "Current Events and Issues",
+          "feedBack": "Good try! Books and e-books are best suited to providing in-depth information."
+      },
+         {
+          "answerText": "Results of a Research Study",
+          "feedBack": "Good try! Books and e-books are best suited to providing in-depth information."
+        },
+         {
+          "answerText": "In-depth Information",
+          "feedBack": "That's it! Books and e-books are best suited to providing in-depth information.",
+           "scoreValue": 1
+        },              
+          {
+          "answerText": "Background Information",
+          "feedBack": "Good try! Books and e-books are best suited to providing in-depth information."
+        }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What type of information are <b>Newspapers and Magazines</b> well-suited to providing?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "In-depth Information",
+          "feedBack": "Good try! Newspapers and magazines are best suited to providing current information that is relevant daily or monthly."
+       },
+         {
+          "answerText": "Results of a Research Study",
+          "feedBack": "Good try! Newspapers and magazines are best suited to providing current information that is relevant daily or monthly."
+        },
+         {
+          "answerText": "Current Events and Issues",
+          "feedBack": "That's it! Newspapers and magazines are best suited to providing information that is current and relevant to events and issues.",
+           "scoreValue": 1
+        },
+         {
+          "answerText": "Background Information",
+          "feedBack": "Good try! Newspapers and magazines are best suited to providing current information that is relevant daily or monthly."
+        },              
+          {
+          "answerText": "Company Products and Services",
+          "feedBack": "Good try! Newspapers and magazines are best suited to providing current information that is relevant daily or monthly."
+        }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What type of information are <b>Trade/Professional Journal</b> well-suited to providing? ",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Current Events and Issues",
+          "feedBack": "Trade/Professional journals are best suited for providing information on research study results."
+       },
+         {
+          "answerText": "Background Information",
+          "feedBack": "That's it! Trade/Professional journals are best suited for providing information on research study results."
+        },
+         {
+          "answerText": "In-depth Information",
+          "feedBack": "Good try! Trade/Professional journals are best suited for providing information on research study results."
+        },
+         {
+          "answerText": "Company Products and Services",
+          "feedBack": "Good try! Trade/Professional journals are best suited for providing information on research study results."
+        },              
+          {
+          "answerText": "Results of a Research Study",
+          "feedBack": "That's it! Trade/Professional journals are an excellent source for providing results of research studies.",
+           "scoreValue": 1
+        }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What type of information are <b>Commercial Websites</b> well-suited to providing?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Company Products and Services",
+          "feedBack": "That's it! Commercial websites are an excellent for providing information on a company's products and services.",
+           "scoreValue": 1
+       },
+         {
+          "answerText": "Results of a Research Study",
+          "feedBack": "Good try! Commercial websites are best suited for providing information on what products and services a company offers."
+        },
+         {
+          "answerText": "In-depth Information",
+          "feedBack": "Good try! Commercial websites are best suited for providing information on what products and services a company offers."
+        },
+         {
+          "answerText": "Background Information",
+          "feedBack": "Good try! Commercial websites are best suited for providing information on what products and services a company offers."
+        },              
+          {
+          "answerText": "Current Events and Issues",
+          "feedBack": "Good try! Commercial websites are best suited for providing information on  what products and services a company offers."
+        }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Plagiarism is using other people's words, ideas or images and not being clear about the fact that these are not your own.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "True",
+          "feedBack": "That's correct! Plagiarism is using another person's work (including ideas, words, and illustrations) as your own without giving credit.",
+           "scoreValue": 1
+       },
+         {
+          "answerText": "False",
+          "feedBack": "Good try! "
+        }
+      ]
+	},
+         {
+      "questionType":"All That Apply",
+      "maxScoreValue": 3,
+      "questionText":"Why is it very important to document the sources you use to support your ideas in your written assignments and projects? <em>Select all that apply</em>. ",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "It allows readers to cross-reference your sources easily.",
+          "feedBack": "Correct Citing your sources protects you from plagiarism, which is a serious academic offence. Refer to the <a href='https://apa.conestogac.on.ca/' title='link to APA@Conestoga' target='_blank'>APA@Conestoga Style Guide</a> for further details.",
+          "scoreValue":1
+       },
+         {
+          "answerText": "It protects you from plagiarism.",
+          "feedBack": "That's correct! Citing your sources protects you from plagiarism, which is a serious academic offence. Refer to the <a href='https://apa.conestogac.on.ca/' target='_blank'>APA@Conestoga Style Guide</a> for further details.",
+           "scoreValue": 1
+        },
+         {
+          "answerText": "It gives you credibility as a writer.",
+          "feedBack": "That's correct! Citing your sources protects you from plagiarism, which is a serious academic offence. Refer to the <a href='https://apa.conestogac.on.ca/' target='_blank'>APA@Conestoga Style Guide</a> for further details.",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "It ensures the resources you use are credible.",
+          "feedBack": "Nice try! iting your sources protects you from plagiarism, which is a serious academic offence. Refer to the <a href='https://apa.conestogac.on.ca/' target='_blank'>APA@Conestoga Style Guide</a> for further details."
+        }
+      ]
+	}
+ ]
+}     
+      

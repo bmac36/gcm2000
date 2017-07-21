@@ -1,0 +1,53 @@
+{
+  "General":{
+    "QuizName": "Digital Branding",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "showQuestions": "1",
+    "preQuizText":"Complete the following question to gauge your understanding of key points raised in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"All That Apply",
+      "maxScoreValue": 3,
+      "questionText":"Which of the following online posts follow proper social media protocol, helping to create a good digital brand? Select all that apply.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "OMG! I lost my cellphone again. Am I stupid or what34r?!",
+          "feedBack": "Good try but not quite. Review the content and then try the knowledge check again."
+        },
+         {
+          "answerText": "So proud to be graduating this Fall with a great group #ConestogaGradSelfie",
+          "feedBack": "Correct! You have identified all of the postings that follow proper social media protocol and promote a good digital brand.",
+		  "scoreValue": 1
+        },
+		{
+          "answerText": "Here’s 30 reasons why your career gets better in your 30s [http://link]. What do you think? #news",
+          "feedBack": "Correct! You have identified all of the postings that follow proper social media protocol and promote a good digital brand.",
+		  "scoreValue": 1
+        },
+		{
+          "answerText": "The fall is good time to get outdoors. Here’s me hiking up the escarpment.",
+          "feedBack": "Correct! You have identified all of the postings that follow proper social media protocol and promote a good digital brand.",
+		  "scoreValue": 1
+        },
+		{
+          "answerText": "My customers are the worst! I don’t get paid enough to deal with this crap. #newjobneeded",
+           "feedBack": "Good try but not quite. Review the content and then try the knowledge check again."
+        }
+      ]
+}
+  ]
+}     
+      

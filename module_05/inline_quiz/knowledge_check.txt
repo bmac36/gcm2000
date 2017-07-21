@@ -1,0 +1,87 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"This three-question quiz will test your understanding of the key concepts learned in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Which of the following is an example of “satisficing” when conducting a job search?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Focusing only on submitting resumes in response to online postings.",
+          "feedBack": "That’s it! Satisficing is putting a lot of effort into something that is relatively easy but has a low rate of return, such as focusing on applying to online job postings.",
+           "scoreValue": 1
+        },
+         {
+          "answerText": "Responding to online postings while finding job leads through your network.",
+          "feedBack": "Good try, but this is not the correct answer."
+        },
+         {
+          "answerText": "Asking only your closest friends and family if they know of job openings in your field.",
+          "feedBack": "Good try, but this in not the correct answer."
+       }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What is one good reason to steer clear of advertised job postings?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "There are too many jobs to read and respond to.",
+          "feedBack": "Good try, but this in not the correct answer."
+       },
+         {
+          "answerText": "The listed job qualifications are always incomplete.",
+          "feedBack": "Good try, but this in not the correct answer."
+        },
+         {
+          "answerText": "High competition from hundreds of qualified applicants.",
+          "feedBack": "You got it! Hundreds of highly qualified applicants typically apply to each advertised position, severely limiting your odds of getting called in for an interview.",
+           "scoreValue": 1
+        }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What is the main goal of building relationships with members of your professional network?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Share information, ideas, resources, and job opportunities.",
+          "feedBack": "Correct! Networking allows you to share with others, providing important news such as industry information and job vacancies.",
+          "scoreValue": 1
+      },
+         {
+          "answerText": "Get insider information to help you create your own job.",
+          "feedBack": "Good try, but this in not the correct answer."
+      },
+         {
+          "answerText": "To impress potential employers with your broad list of contacts.",
+          "feedBack": "Good try, but this in not the correct answer."
+        }
+      ]
+	}
+ ]
+}     
+      

@@ -1,0 +1,91 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "3",
+    "preQuizText":"Check what you have learned in this sub-module by completing the following three questions.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Personal branding is about creating positive perceptions of yourself that connect with potential employers.",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "True",
+          "feedBack": "True! The goal of personal branding is to create a favourable impression of yourself as an individual, employee, co-worker, and leader.",
+           "scoreValue": 1
+        },
+         {
+          "answerText": "False",
+          "feedBack": "Good try, but this is not the correct answer."
+        }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What are <b>three keys elements</b> that define successful personal branding?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Enthusiastic, Authentic, Compelling",
+          "feedBack": "Good try, but this in not the correct answer."
+       },
+         {
+          "answerText": "Memorable, Consistent, Realistic",
+          "feedBack": "Good try, but this in not the correct answer."
+        },
+         {
+          "answerText": "Compelling, Authentic, Consistent",
+          "feedBack": "Correct! Strong personal brands feature a compelling and authentic message that is conveyed consistently in-person and online.",
+           "scoreValue": 1
+        },
+         {
+          "answerText": "Differentiating, Representative, Consistent",
+          "feedBack": "Good try, but this in not the correct answer."
+        }
+      ]
+	},
+         {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"If you think of yourself as a product, what is the ultimate goal of personal branding?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Launch a brand campaign.",
+          "feedBack": "Good try, but this in not the correct answer."
+      },
+         {
+          "answerText": "Stand out from the competition.",
+          "feedBack": "Good try, but this in not the correct answer."
+      },
+         {
+          "answerText": "Sell your brand to a potential employer.",
+          "feedBack": "Correct! The main goal of personal branding is to convince an employer to hire you or &quot;buy your brand&quot;.",
+					"scoreValue": 1
+        },
+         {
+          "answerText": "Fine-tune your resume and cover letter.",
+          "feedBack": "Good try, but this in not the correct answer."
+        }
+      ]
+	}
+ ]
+}     
+      

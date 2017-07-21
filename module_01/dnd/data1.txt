@@ -1,0 +1,62 @@
+{
+	"ActivityName" : "Activity: Match the Description",
+	"ActivityType" : "match",
+	"FeedbackType" : "report",
+	"HighlightEffect" : true,
+	"QuestionColumns" : "1",
+	"Randomize" : true,
+	"PreActivityText" : "none",
+	"PreActivityMedia": "none",
+	"IncludePostPage" : false,
+	"PostActivityText" : "none",
+	"PostActivityMedia" : "none",
+	"AnswerNodes": [
+		{
+			"key": "cat_01", 
+		 	"title": "User", 
+		 	"color": "#b3272d",
+		 	"src" : "none"
+		},
+		{
+			"key": "cat_02",
+			"title": "Abuser", 
+			"color": "#b3272d",
+			"src" : "none"
+		},
+		{
+			"key": "cat_03",
+			"title": "Addictive Use", 
+			"color": "#b3272d",
+			"src" : "none"
+		}
+	],
+	"QuestionNodes": [ 
+		{
+			"question" : "<strong>Lee:</strong> This is an individual who drinks on a Saturday night with friends to “liven up the party”. Generally speaking, the individual’s behaviour does not become unpredictable in nature and does not show a change in personality.  This person is an individual who can control the amount consumed, and chooses to control in most situations", 
+			"answer" : "cat_01",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "1",
+			"correct" : "none",
+			"wrong" : "Not Quite!"	
+		},
+		{
+			"question" : "<strong>Curtis:</strong> This individual consumes large amounts of a substance, may demonstrate antisocial (or inappropriate) attitudes and receive criticisms from others about this behaviour (often with a promise from the individual to change).  Difficulties with this behaviour include: the consumption dulls the feelings that motivate using, but does not allow the individual to acquire new coping skills for changing their behaviour (ex. the idea of hitting a punching bag with youth to take out anger works short-term but does not help long-term). In this situation the individual who experiences negative consequences, may slow their consumption if they recognize the criticism, but likely do not stop using entirely.", 
+			"answer" : "cat_02",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "2",
+			"correct" : "Wahoo!",
+			"wrong" : "So close!"	
+		},
+		{
+			"question" : "<strong>Meg:</strong> This individual does not feel “normal” unless they have some drug (or substance) in their system. Consumption interferes with many aspects of a productive lifestyle (i.e. work, home, family responsibilities). If others give criticisms, these are ignored or denied (i.e. “I do not have a drinking problem” or, “I do not have a gambling problem”).  This individual often makes frequent promises to cut down or stop, but rarely follows through with this for any significant time period. ", 
+			"answer" : "cat_03",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "3",
+			"correct" : "none",
+			"wrong" : "Almost!"	
+		}
+	]
+}

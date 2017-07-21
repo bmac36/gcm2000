@@ -1,0 +1,122 @@
+{
+	"ActivityName" : "Activity: FanshaweOnline Features",
+	"VisualStyle" : true,
+	"Randomize" : true,
+	"ShowScenes" : "1",
+	"visible" : true,
+	"visibleStyle" : {
+			"colour" : "#b3272d",
+			"opacity" : "25%",
+			"stroke" : true,
+			"strokeColour" : "#000000",
+			"strokeWidth" : "1"
+	},
+	"highlight" : true,
+	"highlightStyle" : {
+			"colour" : "#FFFFFF",
+			"opacity" : "50%",
+			"stroke" : true,
+			"strokeColour" : "#e22314",
+			"strokeWidth" : "2"
+	},
+	"PreActivityText" : "none",
+	"PreActivityMedia": "none",
+	"PostActivityText" : "none",
+	"PostActivityMedia" : "none",
+	"Scenes" : [
+		{
+			"SceneName" : "FanshaweOnline Features",
+			"Instructions" : "none",
+			"Background" : {
+					"src" : "multimedia/hotspot/m1_FOL_navbar.jpg",
+					"alt" : "Fanshawe Online Nav Bar",
+					"imgWidth" : "900",
+					"imgHeight" : "605"
+			},
+			"HotSpots": [ 
+				{
+					"id" : "one",
+					"shapeType" : "rectangle",
+					"desc" : "Course Links",
+					"xPos" : "480",
+					"yPos" : "285",
+					"shapeWidth" : "150",
+					"shapeHeight" : "30"	
+				},				
+				{
+					"id" : "two",
+					"shapeType" : "rectangle",
+					"desc" : "Course Links",
+					"xPos" : "480",
+					"yPos" : "315",
+					"shapeWidth" : "150",
+					"shapeHeight" : "30"	
+				},				
+				{
+					"id" : "three",
+					"shapeType" : "rectangle",
+					"desc" : "Course Links",
+					"xPos" : "480",
+					"yPos" : "360",
+					"shapeWidth" : "150",
+					"shapeHeight" : "30"	
+				},				
+				{
+					"id" : "four",
+					"shapeType" : "rectangle",
+					"desc" : "Course Links",
+					"xPos" : "480",
+					"yPos" : "390",
+					"shapeWidth" : "150",
+					"shapeHeight" : "30"	
+				}
+			],
+			"HotSpotContent": [
+				{
+					"key" : "one",
+					"activityType" : "presentation",
+					"popUpName" : "Content",
+					"hotSpotMedia": [
+						{
+							"type": "text",
+							"content": "<p><strong>Content</strong> is used for:</p><ul><li>Course Information Sheet (CIS)</li><li>General course announcements</li><li>College policies</li><li>Online Discussion Topics</li><li>URL (Web) links to:<ul><li>Relevant course information</li><li>Additional readings</li><li>Interactive material</li><li>Videos</li></ul></ul>"
+						}
+					]
+				},
+				{
+					"key" : "two",
+					"activityType" : "presentation",
+					"popUpName" : "Discussions",
+					"hotSpotMedia": [
+					  {
+						  "type": "text",
+							"content": "<p><strong>Discussions</strong> is used for: </p><p>Posting responses to Discussion Topics, classmates, and the instructor.</p>"
+						}
+					]
+				},
+				{
+					"key" : "three",
+					"activityType" : "presentation",
+					"popUpName" : "ePortfolio",
+					"hotSpotMedia": [
+					  {
+						  "type": "text",
+							"content": "<p><strong>ePortfolio</strong> is used for:</p><ul><li>Keeping a record of your learning</li><li>Archiving URLs of text and videos</li><li>Personal notes</li>"
+						}
+					]
+				},
+				{
+					"key" : "four",
+					"activityType" : "presentation",
+					"popUpName" : "Grades",
+					"hotSpotMedia": [
+					  {
+						  "type": "text",
+							"content": "<p><strong>Grades</strong> is used for:</p><p>Recording your grades (Discussion Topics and Exams)</p>"
+						}
+					]
+				}
+			]
+		}
+	]	
+}

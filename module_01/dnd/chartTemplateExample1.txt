@@ -1,0 +1,62 @@
+{
+	"ActivityName" : "Activity: Match the Things",
+	"ActivityType" : "match",
+	"FeedbackType" : "report",
+	"HighlightEffect" : true,
+	"QuestionColumns" : "3",
+	"Randomize" : true,
+	"PreActivityText" : "",
+	"PreActivityMedia": [],
+	"IncludePostPage" : false,
+	"PostActivityText" : "none",
+	"PostActivityMedia" : "none",
+	"AnswerNodes": [
+		{
+			"key": "cat_01", 
+		 	"title": "Category 1", 
+		 	"color": "#FF0000",
+		 	"src" : "userImages/bg.gif"
+		},
+		{
+			"key": "cat_02",
+			"title": "Category 2", 
+			"color": "#00FF00",
+			"src" : "none"
+		},
+		{
+			"key": "cat_03",
+			"title": "Category 3", 
+			"color": "#0000FF",
+			"src" : "userImages/bg2.jpg"
+		}
+	],
+	"QuestionNodes": [ 
+		{
+			"question" : "none", 
+			"answer" : "cat_01",
+			"type" : "image",
+			"src" : "userImages/1.png",
+			"alt" : "1",
+			"correct" : "none",
+			"wrong" : "Not Quite!"	
+		},
+		{
+			"question" : "none", 
+			"answer" : "cat_02",
+			"type" : "image",
+			"src" : "userImages/2.png",
+			"alt" : "2",
+			"correct" : "Wahoo!",
+			"wrong" : "So close!"	
+		},
+		{
+			"question" : "none", 
+			"answer" : "cat_03",
+			"type" : "image",
+			"src" : "userImages/3.png",
+			"alt" : "3",
+			"correct" : "none",
+			"wrong" : "Almost!"	
+		}
+	]
+}

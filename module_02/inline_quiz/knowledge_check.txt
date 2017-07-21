@@ -1,0 +1,50 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "1",
+    "preQuizText":"The following question illustrates the key points raised in this sub-module. Read and answer the question to gauge your understanding of the material.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"All That Apply",
+      "maxScoreValue": 3,
+      "questionText":"How does self-assessment help you get a career job?<br /><em>Select all that apply.</em>",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "It allows you to target your efforts on positions where you will be the most productive, effective and satisfied.",
+          "feedBack": "Correct! You have identified the ways that self-assessment can help you get a career job.",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "It allows you to craft a &quot;sales pitch&quot; that clearly explains to a potential employer why you are the best fit.",
+          "feedBack": "Correct! You have identified the ways that self-assessment can help you get a career job.",
+          "scoreValue": 1
+        },
+         {
+          "answerText": "It helps you to articulate your personal goals and values, and employers are interested in knowing about these.",
+          "feedBack": "Correct! You have identified the ways that self-assessment can help you get a career job.",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "It expands your options, allowing you to respond to any online postings that are related to your career field.",
+          "feedBack": "Not quite! Reset the quiz to try again."
+        }
+              
+      ]
+}
+  ]
+}     
+      

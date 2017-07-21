@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How do you Find Information?</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+<link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+<link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+<!-- Customized theme -->
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/mobile.css">
+
+<!-- Customized fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+<link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- jQuery Version 1.11.3 -->
+<script src="../js/plugins/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/plugins/bootstrap.min.js"></script>
+<script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+<header>
+  <h1>Occupational Research</h1>
+  <div class="strip"></div>
+  <div class="headerMod"> <span>3</span>
+    <div class="triangle-right"></div>
+  </div>
+</header>
+<div class="container" role="main">
+  <div class="col-sm-12 col-xs-12">
+    <h1>How Do You Find Information?</h1>
+  </div>
+  <!-- START ROW -->
+  <div class="row">
+    <div class="col-sm-10 col-sm-offset-1">
+      <h3>How do you go about gathering information? </h3>
+      <p>Watch the video below to consider some of the common ways you likely gather information every day and how the Conestoga Library can take your research to the next level. </p>
+    </div>
+    <div class="col-sm-12 col-xs-12">
+      <div class="col-sm-6">
+      <p>&nbsp;</p>
+      <div class="well" style="min-height: 280px;">
+        <p><a data-toggle="modal" href="#video"><i class="fa fa-play-circle-o fa-5x primary_text playvid"></i><img src="images/database.jpg" alt="" class="modal-video"/></a></p>
+        </div>
+        <!-- Start Video Modal -->
+        
+        <div class="activity modal fade" id="video" tabindex="-1" role="dialog" aria-labelledby="outcomesLabel" aria-hidden="true">
+          <div class="activity modal-dialog modal-lg">
+            <div class="activity modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title" id="outcomesLabel">Preparing &ndash; What is a Database?</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span> </button>
+              </div>
+              <div class="modal-body">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/GKnHk31Ct7w?rel=0" frameborder="0" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Video Modal --> 
+      </div>
+      <div class="col-sm-6">
+      <p>&nbsp;</p>
+        <div class="well">
+          <i class="fa fa-question-circle fa-5x pull-left secondary_text"></i><h3 class="question">Reflective Questions</h3>
+          <div class="clearfix"></div>
+          <ol class="custom-counter">
+            <li>Where do you typically look for information?</li>
+            <li>What benefits does using the Conestoga Library give you over just doing a Google search?</li>
+            <li>What types of resources might you find in a Library database?</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-10 col-sm-offset-1">
+    <p><a id="showSummary"><strong>Click to see more information</strong></a></p>
+      <div id="summary" class="callout accent_bg_2" style="display: none;">
+      <p class="text-right"><strong>Close <a id="hideSummary"><i class="fa fa-close"></i></a></strong></p>
+        <h3 class="neutral_font">Video Summary</h3>
+        <p>If you think about it, you probably have a number of preferred sources for information. Typing some keywords in Google, looking up weather or news using Twitter or a mobile app, or reading a newspaper are just some of the common ways of finding information. When doing academic research, it’s important to seek out credible and varied sources. As a Conestoga student you have direct access to over a hundred research database materials for free, including e-books, journal articles, newspaper articles, and book reviews. This is just the tip of the iceberg in terms of what’s available.</p>
+      </div>
+      <div class="col-sm-12">
+        <p class="text-small"><strong>References:</strong><br />
+          Conestoga College Library Resource Centre. (2014, October 2). <em>Preparing – What is a Database?</em> [Video file]. Retrieved December 23, 2015 from <a href="https://www.youtube.com/watch?v=GKnHk31Ct7w" title="link to source video" target="_blank">https://www.youtube.com/watch?v=GKnHk31Ct7w</a>.</p>
+      </div>
+    </div>
+  </div>
+  <!-- END ROW --> 
+  <!-- End Container --></div>
+<div class="footer">
+  <p>&copy; 2016 Conestoga College. All rights reserved.</p>
+</div>
+
+<!-- EOF: footer -->
+<script>
+$(document).ready(function(){
+    $("#showSummary").click(function(){
+        $("div#summary").show();
+    });
+		
+    $("#hideSummary").click(function(){
+        $("div#summary").hide();
+    });
+});
+</script>
+
+</body>
+</html>

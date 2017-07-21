@@ -1,0 +1,113 @@
+{
+	"ActivityName" : "Activity: Identify Drug Use Type",
+	"ActivityType" : "sort",
+	"FeedbackType" : "continuous",
+	"HighlightEffect" : true,
+	"QuestionColumns" : "2",
+	"Randomize" : true,
+	"PreActivityText" : "none",
+	"PreActivityMedia": "none",
+	"IncludePostPage" : false,
+	"PostActivityText" : "none",
+	"PostActivityMedia" : "none",
+	"AnswerNodes": [
+		{
+			"key": "cat_01", 
+		 	"title": "Legal instrumental use", 
+		 	"color": "#b3272d",
+		 	"src" : "none"
+		},
+		{
+			"key": "cat_02",
+			"title": "Legal recreational use", 
+			"color": "#b3272d",
+			"src" : "none"
+		},
+		{
+			"key": "cat_03",
+			"title": "Illegal instrumental use", 
+			"color": "#b3272d",
+			"src" : "none"
+		},
+		{
+			"key": "cat_04",
+			"title": "Illegal recreational use", 
+			"color": "#b3272d",
+			"src" : "none"
+		}
+	],
+	"QuestionNodes": [ 
+		{
+			"question" : "Nolan takes 2 puffs of his Sambuxtol inhaler as prescribed by his physician prior to playing in his soccer tournament to prevent his asthma from affecting his game.", 
+			"answer" : "cat_01",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "1",
+			"correct" : "none",
+			"wrong" : "Not Quite!"	
+		},		
+		{
+			"question" : "Amanda drinks 2 -3 cups of herbal tea, infused with honey and lemongrass to relieve her cold symptoms before bed.", 
+			"answer" : "cat_01",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "1",
+			"correct" : "none",
+			"wrong" : "Not Quite!"	
+		},
+		{
+			"question" : "Norm goes out for a cigarette break after finishing his final exam.", 
+			"answer" : "cat_02",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "2",
+			"correct" : "Wahoo!",
+			"wrong" : "So close!"	
+		},
+		{
+			"question" : "Robin celebrates her 40th birthday in Las Vegas by going drinking and dancing at the bar until 2:00am.", 
+			"answer" : "cat_02",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "2",
+			"correct" : "Wahoo!",
+			"wrong" : "So close!"	
+		},
+		{
+			"question" : "Laurie is scheduled to write her final driving test tomorrow. She is nervous and hasn’t been able to sleep for the last 2 nights. She asks her mom, Kate, for one of her sleeping pills so she can get a good night’s sleep.", 
+			"answer" : "cat_03",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "3",
+			"correct" : "none",
+			"wrong" : "Almost!"	
+		},
+		{
+			"question" : "Johnny takes 3 of his brothers Ritalin pills before heading out to drive for 6 hours to his friend’s cottage for the weekend. He figures he should take the pills to keep him awake on the long drive.", 
+			"answer" : "cat_03",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "3",
+			"correct" : "none",
+			"wrong" : "Almost!"	
+		},
+		{
+			"question" : "Andre and his friends use cocaine every Friday night before heading to the race track. He loves the high he gets and the energy he feels while cheering on his favorite horse.", 
+			"answer" : "cat_04",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "3",
+			"correct" : "none",
+			"wrong" : "Almost!"	
+		},
+		{
+			"question" : "Betty takes a hit of LSD at the after prom party to ensure she has a great time with her friends.", 
+			"answer" : "cat_04",
+			"type" : "text",
+			"src" : "none",
+			"alt" : "3",
+			"orrect" : "none",
+			"wrong" : "Almost!"	
+		}
+	]
+}

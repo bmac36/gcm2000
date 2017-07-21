@@ -1,0 +1,48 @@
+{
+  "General":{
+    "QuizName": "Knowledge Check",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": true,
+    "showQuestions": "1",
+    "preQuizText":"Complete the following question to gauge your understanding of key points raised in this sub-module.",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+        {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"What is the ultimate goal of completing the learning journey in GMC2000?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+         {
+          "answerText": "Develop team and communication skills that will improve your on-the-job performance.",
+		  "feedBack": "Good try! Developing team and communication skills is important in this course but not the ultimate course goals."
+        },
+         {
+          "answerText": "To overcome satisficing with a positive mindset that embraces change.",
+          "feedBack": "Good try! Overcoming satisficing and embracing change are important to your success but not the ultimate course goal."
+        },
+         {
+          "answerText": "Apply job hunt tools and techniques to locate a great job in your field.",
+          "feedBack": "Good try! While you will learn how to apply job hunt tools and techniques, it is not the ultimate course goal."
+        },
+        {
+          "answerText": "Enhance your employability so you can arrive and thrive in a career-related job.",
+          "feedBack": "Correct! The goal of this course is to help you enhance your employability so that you can find and succeed in a career job.",
+          "scoreValue": 1
+        }
+              
+      ]
+}
+  ]
+}     
+      

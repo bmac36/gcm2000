@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to the Course</title>
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+  <!-- Customized theme -->
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/mobile.css">
+  
+  <!-- Customized fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+  <link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  <!-- jQuery Version 1.11.3 -->
+  <script src="../js/plugins/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="../js/plugins/bootstrap.min.js"></script>
+  <script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+        <![endif]-->
+      </head>
+
+      <body role="document">
+
+        <header>
+          <h1>Course Information</h1>
+          <div class="strip"></div>
+          <div class="headerMod"> <span><i class="fa fa-map-marker"></i></span>
+            <div class="triangle-right"></div>
+          </div>
+        </header>
+        
+        <div class="container" role="main">
+         <div class="col-sm-12 col-xs-12">
+          <h1>Resources, Prerequisites, and Technology</h1>
+        </div>  
+        
+        
+        <div class="row">
+          <div class="col-sm-10 col-sm-offset-1">
+                
+                <h2>Pre-requisites:</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed augue in felis placerat malesuada vitae eget lacus. Fusce vel rhoncus neque. Donec bibendum, sem et ultrices bibendum, mauris odio consequat lacus, ut euismod felis justo quis metus. Vestibulum massa diam, lacinia eget odio in, dapibus eleifend diam.</p>
+                
+                <h2>Required Resources:</h2>
+                <p>There is no textbook for this course. All content is available online. You are highly encouraged to read, discuss and re-read all posted content, much as you would in a textbook. It is best to treat the content as a story by clicking the ‘next’ button to view the next page. Of course, you are also encouraged to flip through pages as necessary, skip ahead and go back to previous topics as required.</p>
+                
+                <h2>Supplementary Resources:</h2>
+                <p>There is no textbook for this course. All content is available online. You are highly encouraged to read, discuss and re-read all posted content, much as you would in a textbook. It is best to treat the content as a story by clicking the ‘next’ button to view the next page. Of course, you are also encouraged to flip through pages as necessary, skip ahead and go back to previous topics as required.</p>
+                
+                <h2>Copyright Statement:</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam sed augue in felis placerat malesuada vitae eget lacus. Fusce vel rhoncus neque. Donec bibendum, sem et ultrices bibendum, mauris odio consequat lacus, ut euismod felis justo quis metus. Vestibulum massa diam, lacinia eget odio in, dapibus eleifend diam.</p>
+
+
+            </div>
+            </div>
+            </div>
+    </div>
+    </div>
+    
+    <!-- End Container -->
+    
+    <div class="footer">
+          <p>&copy; 2016 Conestoga College. All rights reserved.</p>
+        </div>
+
+        <!-- EOF: footer -->
+    
+    <!-- jQuery Version 1.11.0 -->
+    <script src="../js/plugins/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="../js/plugins/bootstrap.min.js"></script>
+    <script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+
+    <!-- Custom JS Functions -->
+    <script src="../js/main.min.js"></script>
+
+    <!-- Page-Level Demo Scripts - Notifications - Use for reference -->
+    <script>
+        // tooltip demo
+        $('.tooltips').tooltip({
+            selector: "[data-toggle=tooltip]",
+            container: "body"
+        })
+
+         // popover demo
+         $("[data-toggle=popover]")
+            .popover()
+    </script>
+    <script>
+        $('#accordion1 .panel-collapse').on('show.bs.collapse', function () {
+            var title_elem = $(this).parent('.panel-default').find('.panel-title');
+            $('.panel-title').removeClass('active');
+            $('.collapse.in').collapse('hide');
+            title_elem.addClass('active');
+            setIconOpened(title_elem);
+        });
+
+        $('#accordion1 .panel-collapse').on('hide.bs.collapse', function () {
+            var title_elem = $(this).parent('.panel-default').find('.panel-title');
+            title_elem.removeClass('active');
+            setIconOpened(null);
+
+        });
+
+         // create a function to set the open icon for the given panel
+         // clearing out all the rest (activePanel CAN be null if nothing is open)
+        function setIconOpened(activePanel) {
+            $('.panel-title').find('b').addClass('closed').removeClass('opened');
+
+            if (activePanel) {
+                $(activePanel).find('b').addClass('opened').removeClass('closed');
+            }
+        }
+    </script>
+    <script>
+        $('#accordion2 .panel-collapse').on('show.bs.collapse', function () {
+            var title_elem = $(this).parent('.panel-default').find('.panel-title');
+            $('.panel-title').removeClass('active');
+            $('.collapse.in').collapse('hide');
+            title_elem.addClass('active');
+            setIconOpened(title_elem);
+        });
+
+        $('#accordion2 .panel-collapse').on('hide.bs.collapse', function () {
+            var title_elem = $(this).parent('.panel-default').find('.panel-title');
+            title_elem.removeClass('active');
+            setIconOpened(null);
+
+        });
+
+         // create a function to set the open icon for the given panel
+         // clearing out all the rest (activePanel CAN be null if nothing is open)
+        function setIconOpened(activePanel) {
+            $('.panel-title').find('b').addClass('closed').removeClass('opened');
+
+            if (activePanel) {
+                $(activePanel).find('b').addClass('opened').removeClass('closed');
+            }
+        }
+    </script>
+    <script>
+        $('.card').on('keypress click', function () {
+            $(this).toggleClass('flipped');
+        });
+    </script>
+
+</body>
+
+</html>
+

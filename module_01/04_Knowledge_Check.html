@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Knowledge Check</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+	<!-- Customized theme -->
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/mobile.css">
+    
+    <!-- Customized fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+     <link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+     
+     <!-- Inline Quiz -->
+	<link rel="stylesheet" href="../css/inline_quiz/d2l_InlineQuizTool.css">
+
+	<!-- jQuery Version 1.11.3 -->
+	<script src="../js/plugins/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="../js/plugins/bootstrap.min.js"></script>
+	<script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/main.min.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+
+	<header>
+		<h1>Your Career Journey Begins</h1>
+		<div class="strip"></div>
+        <div class="headerMod"> <span><i class="fa fa-question-circle"></i></span> 
+        	<div class="triangle-right"></div>
+        </div>
+   </header>
+  
+<div role="main">
+<p>&nbsp;<br>&nbsp;</p>
+ <section id="dbox"></section>
+		
+	</div>
+<!-- container -->
+<div class="footer">
+<p>&copy; 2016 Conestoga College. All rights reserved.</p>
+</div>
+<!-- EOF: footer -->
+<p></p>
+<!-- EOF: footer -->
+<p></p>
+<!-- Inline Quiz -->
+<script src="../js/inline_quiz/d2l_InlineQuizTool.js"></script>
+<script>// <![CDATA[
+		InlineQuizApp.onComplete = function (e) {
+			console.log(e)
+		}
+		InlineQuizApp.setupQuiz("inline_quiz/knowledge_check.txt", "dbox");
+		
+	
+// ]]></script>
+</body>
+
+</html>

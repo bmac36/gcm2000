@@ -1,0 +1,70 @@
+{
+  "General":{
+    "QuizName": "Title",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": true,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "2",
+    "preQuizText":"none",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+    {
+      "questionType":"All That Apply",
+      "maxScoreValue": 2,
+      "questionText":"Question",
+      "hintText":"Hint",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Answer",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Answer",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Answer",
+          "feedBack": "Incorrect!"
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"Question",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Answer",
+          "feedBack": "Incorrect!"
+        },
+        {
+          "answerText": "Answer",
+          "feedBack": "Incorrect!"
+        },
+        {
+          "answerText": "Answer",
+          "feedBack": "Incorrect!"
+        },
+        {
+          "answerText": "Answer",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+
+}

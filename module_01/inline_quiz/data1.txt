@@ -1,0 +1,70 @@
+{
+  "General":{
+    "QuizName": "Activity: The Empirical Method: Screening Dirt",
+    "feedBackType":"continuous",
+    "forceCorrect":false,
+    "repeatOnComplete":true,
+    "allowNone":false,
+    "allowPrevious":true,
+    "showHints": false,
+    "allowPartial": true,
+    "randomize": false,
+    "showQuestions": "2",
+    "preQuizText":"none",
+    "preQuizMedia": "none",
+    "postQuizText":"none",
+    "postQuizMedia": "none"
+  },
+  "Questions":[
+    {
+      "questionType":"All That Apply",
+      "maxScoreValue": 2,
+      "questionText":"What are the names of Atticus' two children?",
+      "hintText":"He had one son, and one daughter",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Jem",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Scout",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        },
+        {
+          "answerText": "Boo",
+          "feedBack": "Incorrect!"
+        }
+      ]
+    },
+    {
+      "questionType":"Multiple Choice",
+      "maxScoreValue": 1,
+      "questionText":"How did Dr. Waksman use his “raw material” to look for new drugs?",
+      "hintText":"none",
+      "hintMedia":"none",
+      "answers": [
+        {
+          "answerText": "Soil from different locations was combined to synthesize a new drug.",
+          "feedBack": "Incorrect!"
+        },
+        {
+          "answerText": "A drug receptor target in the soil was identified and a drug molecule synthesized that interacted with the target.",
+          "feedBack": "Incorrect!"
+        },
+        {
+          "answerText": "Specific enzymes in the soil were identified that would activate a drug when it comes into contact with them.",
+          "feedBack": "Incorrect!"
+        },
+        {
+          "answerText": "Soil samples were inoculated on to growth media and incubated. A “zone of antagonism” around a bacterial colony indicated that the bacterium inhibits the growth of neighboring bacteria.",
+          "feedBack": "Correct!",
+          "scoreValue": 1
+        }
+      ]
+    }
+  ]
+
+}

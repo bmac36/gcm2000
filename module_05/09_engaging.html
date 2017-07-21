@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Engaging in Informal Networking</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+<link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+<link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+<!-- Customized theme -->
+<link rel="stylesheet" href="../css/styles.css">
+<link rel="stylesheet" href="../css/mobile.css">
+
+<!-- Customized fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+<link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+<!-- jQuery Version 1.11.3 -->
+<script src="../js/plugins/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="../js/plugins/bootstrap.min.js"></script>
+<script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+<header>
+  <h1>Uncovering Your Network</h1>
+  <div class="strip"></div>
+  <div class="headerMod"> <span>5</span>
+    <div class="triangle-right"></div>
+  </div>
+</header>
+<div class="container" role="main">
+  <div class="col-sm-12 col-xs-12">
+    <h1>Engaging in Informal Networking</h1>
+  </div>
+  <!-- START ROW -->
+  <div class="row">
+  	<div class="col-sm-10 col-sm-offset-1">
+    		<p>You can actively engage in informal networking by sending out a call on social media that you are looking for work, targeting friends and family with ties to your industry, and always being prepared to develop an opportunity should it arise.</p>
+        <p><strong>Explore some other ways to develop, maintain, and leverage your informal networks.</strong></p>
+    </div>
+  </div>
+  <!-- END ROW -->
+  <div class="row click">
+    <div class="col-sm-12 col-xs-12">
+      <div class="row line">
+        <div id="item_0">
+          <div class="col-sm-4">
+            <p class="lead">Friends and Family</p>
+            <img src="images/family_friends.jpg" class="img-responsive" alt="image of a website" /> </div>
+          <div class="col-sm-2">
+            <button onclick="javascript:showNext(1)" id="itembtn_1" class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12 secondary_text"></i><span class="sr-only">Next</span></button>
+          </div>
+        </div>
+        <div class="col-sm-6" id="item_1">
+          <p class="lead">Friends and Family</p>
+          <p>You might not think of family and friends as part of your professional network, but these are people that you can directly access who may have connections to employers that you were unaware of. A personal reference from a close friend or family member can be a very strong influence in an employer’s decision to speak with you about employment.</p>
+          <p class="lead">Tips for Reaching Out</p>
+          <p>Make your needs clear to your family and friends. Broadcast your skills, abilities, and qualifications. Make it clear that you are looking for a job and in which industry. Don’t be afraid to ask outright if they know of anyone that could prove helpful, and to ask for that person’s contact information. Read the article <a href="https://www.themuse.com/advice/what-to-know-about-networking-with-family-members" title="What to Know about Networking with Family Members article" target="_blank">What to Know About Networking With Family Members <i class="fa fa-external-link"></i></a> for further tips on mixing business and family.</p>
+          <button onclick="javascript:showNext(2)" id="itembtn_2" class="btn btn-main btn-lg pull-right">Next</button>
+        </div>
+      </div>
+      <div class="row line">
+        <div id="item_2">
+          <div class="col-sm-4">
+            <p class="lead">Alumni and Current Classmates</p>
+            <img src="images/grads.jpg" class="img-responsive" alt="image of job search" /> </div>
+          <div class="col-sm-2">
+            <button onclick="javascript:showNext(3)" id="itembtn_3" class="btn btn-invert btn-lg"><i class="fa fa-arrow-right col-xs-12"></i><span class="sr-only">Next</span></button>
+          </div>
+        </div>
+        <div class="col-sm-6" id="item_3">
+          <p class="lead">Alumni and Current Classmates</p>
+          <p>Your current cohort of classmates is an instant network. These are people that have shared the same training as you and are looking for similar work.</p>
+          <p>Alumni are also good connections to have. While they may not know you personally, they will have a good sense of the quality of your education and may share some of the same positive experiences. Alumni are often willing to share information or tips. Consider using the LinkedIn Alumni Search tool to identify alumni, and attend College events to meet more. Review Steve Dalton’s website, <a href="http://2hourjobsearch.com/" title="The 2-Hour Job Search website" target="_blank">The 2-Hour Job Search <i class="fa fa-external-link"></i></a>, for further resources on how to connect with alumni and current classmates.</p>
+        </div>
+      </div>
+    </div>
+    <!-- END ROW --></div>
+  <!-- End Container --></div>
+<div class="footer">
+  <p>&copy; 2016 Conestoga College. All rights reserved.</p>
+</div>
+
+<!-- EOF: footer -->
+    <script>
+        function showNext(i) {
+            $("#itembtn_" + i).removeAttr("onclick").addClass("disabled");
+            $("#item_" + i).css('visibility', 'visible').hide().fadeIn(400);
+
+        }
+        $(document).ready(function () {
+            // hide all flow chart elements
+            for (var i = 0; i <= 20; i++) {
+                $("#item_" + i).css('visibility', 'hidden');
+            }
+
+            // show first item
+            $("#item_0").css('visibility', 'visible').hide().fadeIn(400);
+
+        });
+    </script>
+
+</body>
+</html>

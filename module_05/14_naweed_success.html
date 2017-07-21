@@ -1,0 +1,94 @@
+<!DOCTYPE HTML>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Benefits of Self-Awareness</title>
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="../css/plugins/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="../css/plugins/bootstrap-accessibility.css">
+
+	<!-- Customized theme -->
+	<link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/mobile.css">
+    
+    <!-- Customized fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" type="text/css">
+     <link href="../css/plugins/fontawesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<!-- jQuery Version 1.11.3 -->
+	<script src="../js/plugins/jquery.min.js"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="../js/plugins/bootstrap.min.js"></script>
+	<script src="../js/plugins/bootstrap-accessibility.min.js"></script>
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="../js/html5shiv.js"></script>
+        <script src="../js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body role="document">
+
+	<header>
+		<h1>Uncovering Your Network</h1>
+		<div class="strip"></div>
+        <div class="headerMod"> <span>5</span> 
+        <div class="triangle-right"></div>
+        </div>
+  </header>
+  
+<div class="container" role="main">
+	<div class="col-sm-12 col-xs-12">
+		<h1>Naweed&rsquo;s Success Story</h1>
+	</div>
+<!-- START ROW -->
+	<div class="row">
+  		<div class="col-sm-10 col-sm-offset-1">
+      <img src="../images/mentors/naweed.jpg" class="img-circle circle-lg dot-brdr primary-brdr pull-right" alt="image of Mentor Naweed" />
+      		<p>When networking, you will be approaching a variety of people in formal and informal ways, both in-person and online. Across all forms of networking you will must be able to quickly convey what you are looking for and what you have to offer. You also need to make a positive impression to gain credibility. </p>
+          <p><strong>Review Naweed&rsquo;s networking success story below. Click the linked sections to learn what approaches helped make this event a success for him.</strong></p>
+          <div class="well">
+          <p>Starting out, I had no idea where to look or what events were happening. I tried googling &quot;networking events for IT&quot; and searched meetup.com – both came up with great events. Unfortunately, the events were happening during my part-time work schedule so I couldn’t attend. When I checked my twitter feed, I noticed that my college instructor was tweeting about an employer event on campus that was happening on my day off. The employer is a big technology company nearby that comes to the college every term to recruit new grads.</p>
+          <p><a id="po-top" class="text_underline" data-toggle="popover" data-placement="top" data-container="body" data-content="Naweed took time to prepare for the event by planning his personal introduction or &quot;elevator speech&quot; and researching the company to inform himself of recent company news.">Ahead of time, I carefully practiced my personal introduction and was careful to plan what I would say. I looked up recent tech news to see what was happening with this company, and saw that they just won a national award for innovation</a>.</p>
+          <p><a id="po-top" class="text_underline" data-toggle="popover" data-placement="top" data-container="body" data-content="At the event, Naweed created a great impression by making an effective introduction. He was friendly and confident, with a firm handshake and welcoming body language.">At the event, I saw the hiring manager and confidently walked over. I offered my hand for a handshake and smiled. I introduced myself and said I’m a new graduate that is very glad to connect</a>. I said I greatly admired his company, and congratulated him for the company’s innovation award, and he smiled even bigger. He said he was impressed that I knew that, and he went into further detail about the work that led to the award. <a id="po-top" class="text_underline" data-toggle="popover" data-placement="top" data-container="body" data-content="Naweed recognized the importance of listening before speaking. Asking the other person questions showed his sincere interest in the company. It helped the other person to relax and focus on Naweed once the conversation finally turned back to him.">I listened patiently and made some polite inquiries about his role in the project</a>. </p>
+          <p>After a while the discussion turned back to me. He wanted to know more about my skills and abilities. After I gave him more information about my skills and future goals in a <a id="po-top" class="text_underline" data-toggle="popover" data-placement="top" data-container="body" data-content="Naweed recognized the importance of keeping his talking &lsquo;short and sweet&rsquo; to keep the other person’s interest and to continue to build rapport.">few short sentences</a>, he said he was impressed and that he would like to set up a time to talk in more detail about my future plans. <a id="po-top" class="text_underline" data-toggle="popover" data-placement="top" data-container="body" data-content="Naweed noted the other person’s contact information and followed up with him immediately to arrange another meeting. This left a final good impression of him.">I wrote down his contact information and followed up with him the next day to set up a time to chat at his office</a>. </p>
+			</div>
+    </div>
+<!-- END ROW --></div>
+<!-- End Container --></div>
+
+	<div class="footer">
+		<p>&copy; 2016 Conestoga College. All rights reserved.</p>
+	</div>
+
+	<!-- EOF: footer -->
+ <script>
+                $('#po-left').popover();
+                $('#po-top').popover();
+                $('#po-bottom').popover();
+                $('#po-right').popover();
+
+                $('body').on('click', function (e) {
+                    $('[data-toggle="popover"]').each(function () {
+                        //the 'is' for buttons that trigger popups
+                        //the 'has' for icons within a button that triggers a popup
+                        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+                            $(this).popover('hide');
+                        }
+                    });
+                });
+            </script>
+</body>
+</html>
