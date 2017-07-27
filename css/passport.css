@@ -1,0 +1,70 @@
+/* YOUR CUSTOM STYLES */
+body {
+	font-size: 16px;
+	color: #282828;
+}
+
+main {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+}
+.extra-margins {
+	margin-top: 1rem;
+	margin-bottom: 2.5rem;
+}
+.navbar {
+	background-color: #3b3b3f;
+}
+footer.page-footer {
+	background-color: #3b3b3f;
+	margin-top: 2rem;
+}
+#passport {
+	background-image: url(../passport/images/177357656.jpg);
+	height: 450px;
+	background-size: cover;
+	background-position: bottom;
+}
+.intro {
+	background-color: rgba(255, 255, 255, .90);
+	margin: 20px;
+	padding: 20px;
+	border-radius: 3px;
+}
+.top-space {
+	margin-top: 20px;
+}
+.bottom-space {
+	margin-bottom: 20px;
+}
+.view  {
+	height: 150px;
+}
+.tier1 {
+	background-color: #A11B68;
+}
+.tier2 {
+	background-color: #22788A;
+}
+.tier3 {
+	background-color: #6E8B11;
+}
+.tier4 {
+	background-color: #CB6911;
+}
+.btn-text {
+	font-size: .8em !important;
+	padding: 5px 20px !important;
+	
+}
+textarea.md-textarea {
+	min-height: 350px;
+	font-size: .85em;
+	color: #838383;
+}
+.rounded-circle {
+	border-radius: 50% !important;
+}
+.card-title {
+	margin-right: 25px;
+}
