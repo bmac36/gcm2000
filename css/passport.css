@@ -4,9 +4,17 @@ body {
 	color: #282828;
 }
 
+header {
+	position: fixed;
+	top: 0;
+	overflow: hidden;
+	width: 100%;
+	z-index: 10;
+}
 main {
 	padding-top: 3rem;
 	padding-bottom: 2rem;
+	margin-top: 450px;
 }
 .extra-margins {
 	margin-top: 1rem;
@@ -21,7 +29,7 @@ footer.page-footer {
 }
 #passport {
 	background-image: url(../passport/images/177357656.jpg);
-	height: 450px;
+	height: 450px;;
 	background-size: cover;
 	background-position: bottom;
 }
