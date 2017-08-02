@@ -12,24 +12,24 @@
 <link href="../css/bootstrap.min.css" rel="stylesheet">
 <!-- Material Design Bootstrap -->
 <link href="../css/mdb.css" rel="stylesheet">
-<link href="../css/free/_animations.css" rel="stylesheet">
 <link href="../css/passport.css" rel="stylesheet">
+<link href="../css/free/_animations.css" rel="stylesheet">
 </head>
 
 <body>
-<header id="passport"> 
+<header class="fixed-top" id="passport"> 
   <!--First row-->
-  <div class="row wow fadeIn" data-wow-delay="0.2s">
+  <div class="row wow fadeIn" data-wow-delay="0.5s">
     <div class="col-lg-5"> 
       <!--Featured image -->
       <div class="flex-center animated rollIn"><img src="images/logo.png" class="img-fluid" alt="GCM2000 Activity Passport" /></div>
       <br>
     </div>
     <div class="col-lg-7">
-      <div class="intro animated slideInRight">
-        <h2 class="h2-responsive">Passport Instructions</h2>
+      <div class="intro animated fadeInRightBig InRight">
+        <h2 class="h2-responsive">Activity Reflection Questions</h2>
         <hr>
-        <p>Every three weeks you will complete one of the 15 passport activites and report on it using this tool. For each activity you must answer the following questions:</p>
+				<p><strong>For each activity card you choose, answer all four reflection questions:</strong></p>
         <ol>
           <li>What did you do? Describe the activity. (Answer the questions Who? What? Where? When?)</li>
           <li>Describe an essential employability skill that you have developed as a result of attending this event. </li>
@@ -74,7 +74,7 @@
             <p class="card-text">Start a portfolio on ePortfolio, create a WordPress blog, or set up and run a new social media account dedicated to your professional life. </p>
             <p><a href="http://www.wordpress.com" title="link to WordPress" class="pull-left" target="_blank">WordPress <i class="fa fa-wordpress cyan-text"></i></a> <a href="http://www.linkedin.com" title="link to LinkedIn" class="pull-right" target="_blank">LinkedIn <i class="fa fa-linkedin-square cyan-text"></i></a><br />
               <a href="http://www.twitter.com" title="link to Twitter" class="pull-left" target="_blank">Twitter <i class="fa fa-twitter-square cyan-text"></i></a> <a href="https://conestoga.desire2learn.com/d2l/ep/6606/dashboard/index" title="link to ePortfolio" class="pull-right" target="_blank">ePortfolio <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right top-space">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right top-space marking">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -86,7 +86,7 @@
                 <textarea type="text" id="reflect1" name="reflect1" class="md-textarea" ></textarea>
                 <label for="reflect1">Share your experience</label>
               </div>
-              <button type="submit" id="reflect1save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect1save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -118,7 +118,7 @@
             <!--Text-->
             <p class="card-text">Seek one-on-one career advising by contacting a thought-leader or attending a Career Hub event and following up with your mentor or event attendees afterwards to thank them for their time.</p>
             <p><a href="https://mycareer.conestogac.on.ca/home.htm" title="link to Career Hub at Conestoga" target="_blank">Career Hub Login <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -130,7 +130,7 @@
                 <textarea type="text" id="reflect2" name="reflect2" class="md-textarea" ></textarea>
                 <label for="reflect2">Share your experience</label>
               </div>
-              <button type="submit" id="reflect2save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect2save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -161,7 +161,7 @@
             <!--Text-->
             <p class="card-text">Develop a business card and have this printed for you, the meet new people at an organized off-campus networking event or activity and follow up afterwards with the people you met. </p>
             <p><a href="http://www.meetup.com" title="link to Meetup" target="_blank">Meetup <i class="fa fa-meetup cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -173,7 +173,7 @@
                 <textarea type="text" id="reflect3" name="reflect3" class="md-textarea" ></textarea>
                 <label for="reflect3">Share your experience</label>
               </div>
-              <button type="submit" id="reflect3save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect3save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -208,7 +208,7 @@
             <!--Text-->
             <p class="card-text">Attend a community festival, organized event, or concert and document your attendance with photos and social media posts. </p>
             <p><a href="http://www.kitchenerevents.ca" title="link to Kitchener Events" class="pull-left" target="_blank">Kitc#ener Events <i class="fa fa-external-link cyan-text"></i></a> <a href="http://www.eventbrite.ca" title="link to Eventbrite" class="pull-right" target="_blank">Eventbrite <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right top-space">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right top-space">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -220,7 +220,7 @@
                 <textarea type="text" id="reflect4" name="reflect4" class="md-textarea" ></textarea>
                 <label for="reflect4">Share your experience</label>
               </div>
-              <button type="submit" id="reflect4save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect4save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -251,7 +251,7 @@
             <!--Text-->
             <p class="card-text">Attend an informative co-curricular workshop, lab, lecture or talk to build your knowledge of your occupation, industry or sector.</p>
             <p><a href="http://www.conestogac.on.ca/ccr/" title="link to Co-Curricular Record" target="_blank">Co-Curricular Record <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -263,7 +263,7 @@
                 <textarea type="text" id="reflect5" name="reflect5" class="md-textarea" ></textarea>
                 <label for="reflect5">Share your experience</label>
               </div>
-              <button type="submit" id="reflect5save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect5save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -294,7 +294,7 @@
             <!--Text-->
             <p class="card-text">Join a club or team based on your interests or values and document your participation with photos and social media posts.</p>
             <p><a href="http://www.conestogac.on.ca/ccr/" title="link to Co-Curricular Record" target="_blank">Co-Curricular Record <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -306,7 +306,7 @@
                 <textarea type="text" id="reflect6" name="reflect6" class="md-textarea" ></textarea>
                 <label for="reflect6">Share your experience</label>
               </div>
-              <button type="submit" id="reflect6save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect6save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -340,7 +340,7 @@
             <!--Text-->
             <p class="card-text">Attend a community festival, organized event, or concert and document your attendance with photos and social media posts. </p>
             <p><a href="http://www.conestogac.on.ca/ccr/" title="link to Co-Curricular Record" target="_blank">Co-Curricular Record <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -352,7 +352,7 @@
                 <textarea type="text" id="reflect7" name="reflect7" class="md-textarea" ></textarea>
                 <label for="reflect7">Share your experience</label>
               </div>
-              <button type="submit" id="reflect7save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect7save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -384,7 +384,7 @@
             <p class="card-text">Attend a job fair, trade show, open house, or employer tour to make contacts and learn specific information about your industry.</p>
             <p><a href="https://www.partners4employment.ca/home.htm" title="link to P4E" class="pull-left" target="_blank">P4E <i class="fa fa-external-link cyan-text"></i></a>
             <a href="http://www.eventbrite.ca" title="link to Eventbrite" class="pull-right" target="_blank">Eventbrite <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right top-space">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right top-space">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -396,7 +396,7 @@
                 <textarea type="text" id="reflect8" name="reflect8" class="md-textarea" ></textarea>
                 <label for="reflect8">Share your experience</label>
               </div>
-              <button type="submit" id="reflect8save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect8save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -427,7 +427,7 @@
             <!--Text-->
             <p class="card-text">Complete an online course or &lsquo;microdegree&rsaquo; to become a more qualified job seeker.</p>
             <p><a href="http://www.lynda.com" title="link to Lynda.com" target="_blank">Lynda.com <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -439,7 +439,7 @@
                 <textarea type="text" id="reflect9" name="reflect9" class="md-textarea" ></textarea>
                 <label for="reflect9">Share your experience</label>
               </div>
-              <button type="submit" id="reflect9save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect9save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -474,7 +474,7 @@
             <p class="card-text">Join the conversation circles, English language partners, join a seminar or classes to learn a new language, or participate in off-campus groups.</p>
             <p><a href="#" title="link to ECP" class="pull-left" target="_blank">ECP <i class="fa fa-external-link cyan-text"></i></a> <a href="#" title="link to ECC" class="pull-right" target="_blank">ECC <i class="fa fa-external-link cyan-text"></i></a></p>
 						<div class="clearfix"></div>
-            <a class="btn btn-blue-grey pull-right top-space">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right top-space">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -486,7 +486,7 @@
                 <textarea type="text" id="reflect10" name="reflect10" class="md-textarea" ></textarea>
                 <label for="reflect10">Share your experience</label>
               </div>
-              <button type="submit" id="reflect10save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect10save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -517,7 +517,7 @@
             <!--Text-->
             <p class="card-text">Extend  your professional network by conducting an informational interview.</p>
             <p><a href="https://www.livecareer.com/quintessential/information-interview" title="link to article: Questions to Ask at the Informational Interview" target="_blank">Questions to Ask at the Informational Interview <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -529,7 +529,7 @@
                 <textarea type="text" id="reflect15" name="reflect15" class="md-textarea" ></textarea>
                 <label for="reflect15">Share your experience</label>
               </div>
-              <button type="submit" id="reflect15save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect15save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -560,7 +560,7 @@
             <!--Text-->
             <p class="card-text">Help others through mentoring, tutoring, teaching, coaching, or refereeing.</p>
             <p><a href="#" title="link to " target="_blank">Need links <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -572,7 +572,7 @@
                 <textarea type="text" id="reflect12" name="reflect12" class="md-textarea" ></textarea>
                 <label for="reflect12">Share your experience</label>
               </div>
-              <button type="submit" id="reflect12save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect12save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -607,7 +607,7 @@
             <p class="card-text">Apply your technical or industry knowledge at a Hackathon competition, industy project, or freelance opportunity.</p>
             <p>Document your participation and add this to a professional portfolio. </p>
             <p><a href="https://www.eventbrite.ca/d/ca--kitchener/hackathon/" title="link to Kitchener Hackathon Events" class="pull-left" target="_blank">Hackathons <i class="fa fa-external-link cyan-text"></i></a> <a href="http://www.freelancer.ca" title="link to Freelancer" class="pull-right" target="_blank">Freelancer <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right top-space">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right top-space">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -619,7 +619,7 @@
                 <textarea type="text" id="reflect13" name="reflect13" class="md-textarea" ></textarea>
                 <label for="reflect13">Share your experience</label>
               </div>
-              <button type="submit" id="reflect13save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect13save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -651,7 +651,7 @@
             <p class="card-text">Join a committee or board of a cultural, community or campus organization in a leadership position.</p>
 						<p class="card-text">Add this leadership role to your LinkedIn account.</p>
             <p><a href="#" title="link to ??" target="_blank">Add links <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -663,7 +663,7 @@
                 <textarea type="text" id="reflect14" name="reflect14" class="md-textarea" ></textarea>
                 <label for="reflect14">Share your experience</label>
               </div>
-              <button type="submit" id="reflect14save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect14save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -697,7 +697,7 @@
 						<a href="http://www.charityvillage.com" title="link to Charity Village" target="_blank">Charity Village <i class="fa fa-external-link cyan-text"></i></a><br />
 						<a href="http://www.kitchener.ca/en/livinginkitchener/volunteerwithus.asp" title="link to City of Kitchener: Volunteer with us" target="_blank">City of Kitchener <i class="fa fa-external-link cyan-text"></i></a><br />
 							<a href="http://www.waterloo.ca/en/living/volunteer.asp" title="link to City of Waterloo: Volunteer" target="_blank">City of Waterloo <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right top-space">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right top-space">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -709,7 +709,7 @@
                 <textarea type="text" id="reflect11" name="reflect11" class="md-textarea" ></textarea>
                 <label for="reflect11">Share your experience</label>
               </div>
-              <button type="submit" id="reflect11save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect11save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -743,7 +743,7 @@
             <!--Text-->
             <p class="card-text">Promote your entrepreneurial spirit by preparing a business plan, completeing the E@C modules, or applying for a business grant or license.</p>
             <p><a href="https://www.conestogac.on.ca/c4e/entrepreneurship.jsp" title="link to Entrepreneurship @ Conestoga" target="_blank">Entrepreneurship @ Conestoga <i class="fa fa-external-link cyan-text"></i></a> </p>
-            <a class="btn btn-blue-grey pull-right top-space">Submit</a> </div>
+            <a class="btn btn-blue-grey pull-right top-space">Submit for Marking</a> </div>
           <!--/.Card content--> 
           <!--Card reveal-->
           <div class="card-reveal"> 
@@ -755,7 +755,7 @@
                 <textarea type="text" id="reflect16" name="reflect16" class="md-textarea" ></textarea>
                 <label for="reflect16">Share your experience</label>
               </div>
-              <button type="submit" id="reflect16save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
+              <button type="submit" id="reflect16save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save Draft</strong></button>
             </div>
             <!--/.Content--> 
           </div>
@@ -771,7 +771,7 @@
         <div class="card ovf-hidden"> 
           <!--Card image-->
           <div class="view overlay hm-white-slight purple darken-1">
-            <div class="avatar flex-center"><img src="images/social.jpg" class="rounded-circle img-fluid" alt=""></div>
+            <div class="avatar flex-center"><img src="images/celebrate.png" class="rounded-circle img-fluid" alt=""></div>
             <a>
             <div class="mask waves-effect waves-light"></div>
             </a> </div>
@@ -779,30 +779,14 @@
           <!--Card content-->
           <div class="card-block"> 
             <!--Social shares button--> 
-            <a class="activator"><i class="fa fa-edit cyan-text"></i></a> 
             <!--Title-->
-            <h4 class="card-title">Lead in your community</h4>
+            <h4 class="card-title">You're a world Traveller!</h4>
             <hr>
             <!--Text-->
-            <p class="card-text">Join a committee or board of a cultural, community or campus organization in a leadership position.</p>
-						<p class="card-text">Add this leadership role to your LinkedIn account.</p>
+            <p class="card-text">Now that you've completed your activities, you will find that your professional network has evolved and grown. </p>
+						<p class="card-text">Additional text here.</p>
             <p><a href="#" title="link to ??" target="_blank">Add links <i class="fa fa-external-link cyan-text"></i></a></p>
-            <a class="btn btn-blue-grey pull-right">Submit</a> </div>
           <!--/.Card content--> 
-          <!--Card reveal-->
-          <div class="card-reveal"> 
-            <!--Content-->
-            <div class="content text-center">
-              <h5 class="card-title"> <i class="fa fa-close pull-right"></i></h5>
-              <div class="md-form" name="input14" id="input14" action="post"> <i class="fa fa-pencil prefix"></i>
-                <textarea type="text" id="reflect14" name="reflect14" class="md-textarea" ></textarea>
-                <label for="reflect14">Share your experience</label>
-              </div>
-              <button type="submit" id="reflect14save" class="btn btn-blue-grey small-two pull-right" data-toggle="tab"><strong>Save</strong></button>
-            </div>
-            <!--/.Content--> 
-          </div>
-          <!--/.Card reveal--> 
         </div>
         <!--/.Card--> 
       </div>
