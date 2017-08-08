@@ -3401,6 +3401,9 @@ h2.icon-header {
 .pad-right {
 	padding-right: 15px;
 }
+.pad-left {
+	padding-left: 15px;
+}
 /* Module_07 S.T.A.R graphic */
 .starbox {
 	display: block;
