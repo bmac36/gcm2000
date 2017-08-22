@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>GCM2000 Activity Passport</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="../css/plugins/font-awesome-4.7.0/css/font-awesome.css">
+<!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="../css/mdb.css" rel="stylesheet">
+<link href="../css/passport.css" rel="stylesheet">
+<link href="../css/free/_animations.css" rel="stylesheet">
+</head>
+
+<body>
+<div class="container-fluid" id="passport"> 
+  <!--First row-->
+  <div class="row wow fadeIn" data-wow-delay="0.5s">
+    <div class="col-lg-5"> 
+      <!--Featured image -->
+      <div class="flex-center animated rollIn"><img src="images/logo.png" class="img-fluid" alt="GCM2000 Activity Passport" /></div>
+      <br>
+    </div>
+    <div class="col-lg-7">
+      <div class="intro animated fadeInRightBig InRight">
+        <h2 class="h2-responsive">Activity Reflection Questions</h2>
+        <hr>
+				<p><strong>For each activity card you choose, answer all four reflection questions:</strong></p>
+        <ol id="passport-qlist">
+        	
+        </ol>
+      </div>
+    </div>
+    <!--Main information--> 
+  </div>
+  <!--/.First row--> 
+  
+</div>
+<main> 
+  
+  <!--Main layout-->
+  <div class="container">
+    <h2>The Activities</h2>
+    <hr class="extra-margins">
+    
+    <div id="passport-ilist">
+    	
+    </div>
+    
+    
+	<!-- Modal -->
+	<div class="modal" id="myReflection" tabindex="-1" role="dialog" aria-labelledby="myReflectionLabel" data-backdrop="static" data-keyboard="false">
+	  <div class="modal-dialog" role="document">
+		<div class="modal-content">
+		  <div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			<h4 class="modal-title" id="myReflectionLabel"></h4>
+		  </div>
+		  <div class="modal-body">
+			
+		  </div>
+		  <div class="modal-footer">
+			<button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+			<button type="button" class="btn btn-primary" id="savereflection">Save</button>
+		  </div>
+		</div>
+	  </div>
+	</div>    
+    
+  </div>
+  <!--/.Main layout--> 
+  
+</main>
+
+<!--Footer--> 
+
+<!--Copyright-->
+<footer class="page-footer">
+  <div class="footer">
+    <p>&copy; 2017 Conestoga College. All rights reserved.</p>
+  </div>
+</footer>
+<!--/.Copyright--> 
+
+<!--/.Footer--> 
+
+<!-- SCRIPTS --> 
+
+<!-- JQuery --> 
+<script type="text/javascript" src="../js/jquery-2.2.3.min.js"></script> 
+
+<!-- Bootstrap tooltips --> 
+<script type="text/javascript" src="../js/tether.min.js"></script> 
+
+<!-- Bootstrap core JavaScript --> 
+<script type="text/javascript" src="../js/bootstrap.min.js"></script> 
+
+<!-- MDB core JavaScript --> 
+<script type="text/javascript" src="../js/mdb.min.js"></script> 
+<script>
+    new WOW().init();
+    </script>
+    
+<!-- Valence Scripts --> 
+<script src="../js/thirdpartylib/valence/global-superagent-d2l-session-auth.min.js"></script> 
+<script src="../js/thirdpartylib/valence/csval-lib.js"></script> 
+
+<script>
+	var datafile = "data/gcm-passport.json";
+</script>
+<script src="../js/passport.js"></script> 
+
+</body>
+</html>

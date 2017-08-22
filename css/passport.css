@@ -13,7 +13,6 @@ header {
 main {
 	padding-top: 3rem;
 	padding-bottom: 2rem;
-	margin-top: 450px;
 }
 .extra-margins {
 	margin-top: 1rem;
@@ -26,11 +25,24 @@ footer.page-footer {
 	background-color: #3b3b3f;
 	margin-top: 2rem;
 }
-#passport {
+#passport, #passport_sm {
 	background-image: url(../passport/images/177357656.jpg);
 	height: 450px;;
 	background-size: cover;
 	background-position: bottom;
+}
+#passport_sm {
+	height: 300px;
+}
+.passport {
+	color: #ffffff;
+	font-size: 3em;
+	font-weight: 400;
+	margin-top:100px;
+}
+
+.passport-item {
+	margin-bottom:20px;
 }
 .intro {
 	background-color: rgba(255, 255, 255, .90);
@@ -44,8 +56,8 @@ footer.page-footer {
 .bottom-space {
 	margin-bottom: 20px;
 }
-.view  {
-	height: 150px;
+.avatar  {
+	height: 150px !important;
 }
 .tier1 {
 	background-color: #A11B68;
@@ -74,4 +86,30 @@ textarea.md-textarea {
 }
 .card-title {
 	margin-right: 25px;
+}
+.card-block {
+	padding-bottom:80px;
+	position:relative;
+}
+.card-block ul {
+	margin-left:0px;
+}
+.btn-submit {
+	position:absolute;
+	margin-left:-1.25rem;
+	margin-right:-1.25rem;
+	bottom:10px;
+	width:100%;
+	text-align:center;
+}
+#myReflection .modal-dialog {
+	width:80% !important;
+	max-width:900px;
+}
+#myReflection .modal-body {
+	padding-top:50px;
+}
+
+#myReflection .modal-body textarea {
+	margin-bottom:30px;
 }
