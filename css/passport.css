@@ -2,6 +2,8 @@
 body {
 	font-size: 16px;
 	color: #282828;
+	overflow: hidden;
+	max-width: 100%;
 }
 
 header {
@@ -43,6 +45,10 @@ footer.page-footer {
 
 .passport-item {
 	margin-bottom:20px;
+}
+.logo {
+	margin-top: 20px;
+	margin-left: 40px;
 }
 .intro {
 	background-color: rgba(255, 255, 255, .90);

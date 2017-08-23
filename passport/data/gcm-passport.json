@@ -1,0 +1,306 @@
+{
+  "PassportID": "passport-gcm2000-1",
+  "Demographics": {
+    "FieldId": 1000004,
+    "FieldName": "GCM2000-Passport"
+  },
+  "ReflectionQuestions": [
+    "What did you do? Describe the activity. (Answer the questions Who? What? Where? When?)",
+    "Describe an essential employability skill that you have developed as a result of attending this event.",
+    "How does this help you as a job seeker? (I met a new contact. I added something to my résumé. I learned a new skill that will make me a better employee.)"  ],
+  "PassportTiers": [
+    {
+      "ID": "tier1",
+      "Title": "Tier 1",
+      "Description": "Something Here",
+      "Color": "#c0ca33"
+    },
+    {
+      "ID": "tier2",
+      "Title": "Tier 2",
+      "Description": "Something Here",
+      "Color": "#ffb300"
+    },
+    {
+      "ID": "tier3",
+      "Title": "Tier 3",
+      "Description": "Something Here",
+      "Color": "#00acc1"
+    },
+    {
+      "ID": "tier4",
+      "Title": "Tier 4",
+      "Description": "Something Here",
+      "Color": "#c2185b"
+    }
+  ],
+  "PassportItems": [
+    {
+      "ID": "pass1",
+      "Title": "Express yourself professionally",
+      "Description": "Start a portfolio on ePortfolio, create a WordPress blog, or set up and run a new social media account dedicated to your professional life.",
+      "IconFile": "images/social.png",
+      "Tier": "tier1",
+      "Links": [
+        {
+          "Text": "ePortfolio",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "/d2l/ep/6606/dashboard/index"
+        },
+        {
+          "Text": "WordPress",
+          "IconHTML": "<i class=\"fa fa-wordpress cyan-text\"></i>",
+          "URL": "http://www.wordpress.com"
+        },
+        {
+          "Text": "LinkedIn",
+          "IconHTML": "<i class=\"fa fa-linkedin-square cyan-text\"></i>",
+          "URL": "http://www.linkedin.com"
+        },
+        {
+          "Text": "Twitter",
+          "IconHTML": "<i class=\"fa fa-twitter-square cyan-text\"></i>",
+          "URL": "http://www.twitter.com"
+        }
+      ]
+    },
+    {
+      "ID": "pass2",
+      "Title": "Seek out career advice",
+      "Description": "Seek one-on-one career advising by contacting a thought-leader or attending a Career Hub event and following up with your mentor or event attendees afterwards to thank them for their time.",
+      "IconFile": "images/advice.png",
+      "Tier": "tier1",
+      "Links": [
+        {
+          "Text": "Career Hub Login",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "https://mycareer.conestogac.on.ca/home.htm"
+        }
+      ]
+    },
+    {
+      "ID": "pass3",
+      "Title": "Build your professional network off-campus",
+      "Description": "Develop a business card and have this printed for you, the meet new people at an organized off-campus networking event or activity and follow up afterwards with the people you met.",
+      "IconFile": "images/network.png",
+      "Tier": "tier1",
+      "Links": [
+        {
+          "Text": "Meetup",
+          "IconHTML": "<i class=\"fa fa-meetup cyan-text\"></i>",
+          "URL": "http://www.meetup.com"
+        }
+      ]
+    },
+    {
+      "ID": "pass4",
+      "Title": "Explore your community",
+      "Description": "Attend a community festival, organized event, or concert and document your attendance with photos and social media posts.",
+      "IconFile": "images/explore.png",
+      "Tier": "tier1",
+      "Links": [
+        {
+          "Text": "Kitc#ener Events",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.kitchenerevents.ca"
+        },
+        {
+          "Text": "Eventbrite",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.eventbrite.ca"
+        }
+      ]
+    },
+    {
+      "ID": "pass5",
+      "Title": "Gather information about your industry",
+      "Description": "Attend an informative co-curricular workshop, lab, lecture or talk to build your knowledge of your occupation, industry or sector.",
+      "IconFile": "images/collect.png",
+      "Tier": "tier1",
+      "Links": [
+        {
+          "Text": "Co-Curricular Record",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.conestogac.on.ca/ccr/"
+        }
+      ]
+    },
+    {
+      "ID": "pass6",
+      "Title": "Join a club or team on campus",
+      "Description": "Join a club or team based on your interests or values and document your participation with photos and social media posts.",
+      "IconFile": "images/join.png",
+      "Tier": "tier2",
+      "Links": [
+        {
+          "Text": "Co-Curricular Record",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.conestogac.on.ca/ccr/"
+        }
+      ]
+    },
+    {
+      "ID": "pass7",
+      "Title": "Volunteer on campus",
+      "Description": "Attend a community festival, organized event, or concert and document your attendance with photos and social media posts.",
+      "IconFile": "images/volunteer_on_campus.png",
+      "Tier": "tier2",
+      "Links": [
+        {
+          "Text": "Co-Curricular Record",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.conestogac.on.ca/ccr/"
+        }
+      ]
+    },
+    {
+      "ID": "pass8",
+      "Title": "Engage your industry",
+      "Description": "Attend a job fair, trade show, open house, or employer tour to make contacts and learn specific information about your industry.",
+      "IconFile": "images/job_fair.png",
+      "Tier": "tier2",
+      "Links": [
+        {
+          "Text": "P4E",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "https://www.partners4employment.ca/home.htm"
+        },
+        {
+          "Text": "Eventbrite",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.eventbrite.ca"
+        }
+      ]
+    },
+    {
+      "ID": "pass9",
+      "Title": "Develop a New Technical Skill",
+      "Description": "Complete an online course or 'microdegree' to become a more qualified job seeker.",
+      "IconFile": "images/skills.png",
+      "Tier": "tier2",
+      "Links": [
+        {
+          "Text": "Lynda.com",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.lynda.com"
+        }
+      ]
+    },
+    {
+      "ID": "pass10",
+      "Title": "Perfect your communication",
+      "Description": "Join the conversation circles, English language partners, join a seminar or classes to learn a new language, or participate in off-campus groups.",
+      "IconFile": "images/communicate.png",
+      "Tier": "tier2",
+      "Links": [
+        {
+          "Text": "ECP",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "#"
+        },
+        {
+          "Text": "ECC",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "#"
+        }
+      ]
+    },
+    {
+      "ID": "pass11",
+      "Title": "Expand your industry contacts",
+      "Description": "Extend your professional network by conducting an informational interview.",
+      "IconFile": "images/contacts.png",
+      "Tier": "tier3",
+      "Links": [
+        {
+          "Text": "Questions to Ask at the Informational Interview",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "https://www.livecareer.com/quintessential/information-interview"
+        }
+      ]
+    },
+    {
+      "ID": "pass12",
+      "Title": "Become a Mentor",
+      "Description": "Help others through mentoring, tutoring, teaching, coaching, or refereeing.",
+      "IconFile": "images/mentor.png",
+      "Tier": "tier3",
+      "Links": []
+    },
+    {
+      "ID": "pass13",
+      "Title": "Showcase your technical mastery",
+      "Description": "Apply your technical or industry knowledge at a Hackathon competition, industy project, or freelance opportunity. Document your participation and add this to a professional portfolio.",
+      "IconFile": "images/showcase.png",
+      "Tier": "tier3",
+      "Links": [
+        {
+          "Text": "Hackathons",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "https://www.eventbrite.ca/d/ca--kitchener/hackathon/"
+        },
+        {
+          "Text": "Freelancer",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.freelancer.ca"
+        }
+      ]
+    },
+    {
+      "ID": "pass14",
+      "Title": "Lead in your community",
+      "Description": "Join a committee or board of a cultural, community or campus organization in a leadership position. Add this leadership role to your LinkedIn account.",
+      "IconFile": "images/leader.png",
+      "Tier": "tier3",
+      "Links": []
+    },
+    {
+      "ID": "pass15",
+      "Title": "Volunteer off-campus",
+      "Description": "Give back to your communicaty by volunteering for a charity, organization or cause that is important to you.",
+      "IconFile": "images/volunteer_off_campus.png",
+      "Tier": "tier3",
+      "Links": [
+        {
+          "Text": "KW Action Centre",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "https://www.volunteerkw.ca/"
+        },
+        {
+          "Text": "Charity Village",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.charityvillage.com"
+        },
+        {
+          "Text": "City of Kitchener",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.kitchener.ca/en/livinginkitchener/volunteerwithus.asp"
+        },
+        {
+          "Text": "City of Waterloo",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.waterloo.ca/en/living/volunteer.asp"
+        }
+      ]
+    },
+    {
+      "ID": "pass16",
+      "Title": "Hardcore Traveller: Start a business",
+      "Description": "Promote your entrepreneurial spirit by preparing a business plan, completeing the E@C modules, or applying for a business grant or license.",
+      "IconFile": "images/start_up.png",
+      "Tier": "tier4",
+      "Links": [
+        {
+          "Text": "Entrepreneurship @ Conestoga",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "https://www.conestogac.on.ca/c4e/entrepreneurship.jsp"
+        },
+        {
+          "Text": "City of Kitchener",
+          "IconHTML": "<i class=\"fa fa-external-link cyan-text\"></i>",
+          "URL": "http://www.kitchener.ca/en/livinginkitchener/volunteerwithus.asp"
+        }
+      ]
+    }
+  ]
+}
