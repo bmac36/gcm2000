@@ -1,7 +1,7 @@
 {
   "PassportID": "passport-gcm2000-1",
   "Demographics": {
-    "FieldId": 1000004,
+    "FieldId": 1000020,
     "FieldName": "GCM2000-Passport"
   },
   "ReflectionQuestions": [

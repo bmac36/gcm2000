@@ -26,6 +26,7 @@ main {
 footer.page-footer {
 	background-color: #3b3b3f;
 	margin-top: 2rem;
+	padding: 5px 20px;
 }
 #passport, #passport_sm {
 	background-image: url(../passport/images/177357656.jpg);
@@ -118,4 +119,45 @@ textarea.md-textarea {
 
 #myReflection .modal-body textarea {
 	margin-bottom:30px;
+}
+#studentview, #moderatorview {
+	display: none;
+}
+/* accordion styling */
+.panel-title {
+	font-size: 1.1em;
+	text-transform: uppercase;
+	padding: 20px;
+}
+.panel-title a {
+	color: #f1f1f1;
+}
+.panel-default {
+	border-color: #595959;
+	background-color: #595959;
+	margin-bottom: 5px;
+} 
+.panel-body {
+	background-color: #ffffff;
+	padding: 20px 10px;
+}
+.panel-body h3 {
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 500;
+}
+/* end of accordion styles */
+.color-box {
+	width: 200px;
+}
+.pad-left {
+	padding-left: 20px;
+}
+.pad-top {
+	padding-top: 10px;
+}
+.well {
+	border: 1px solid #e1e1e1;
+	padding: 20px;
+	box-shadow: 1px 1px 1px 1px #e1e1e1;
 }
